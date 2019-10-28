@@ -1,0 +1,24 @@
+---
+ execution:
+   concurrency: 5
+   ramp-up: 1m
+   hold-for: 2m
+   iterations: 1
+   scenario:
+     script: jmeter_script3.jmx
+     properties:
+         hostname: marca.es
+  
+ reporting:
+   - module: blazemeter
+     test: Smoke Test
+     jmeter:
+        path: ~/.bzt/jmeter-taurus/bin/jmeter
+        download-link: https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.11.zip
+        version: 5.11
+        force-ctg: true   # true by default
+        detect-plugins: true
+        plugins:
+        - jpgc-json=2.2
+        - jmeter-ftp
+        - jpgc-casutg
