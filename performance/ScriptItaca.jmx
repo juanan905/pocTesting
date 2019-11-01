@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="3.2" jmeter="3.3 r1808647">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">1281132211000</longProp>
+        <longProp name="ThreadGroup.end_time">1281132211000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
+          <collectionProp name="CookieManager.cookies"/>
+          <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+          <stringProp name="CookieManager.policy">rfc2109</stringProp>
+        </CookieManager>
+        <hashTree/>
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="VIEWSTATE" elementType="Argument">
+              <stringProp name="Argument.name">VIEWSTATE</stringProp>
+              <stringProp name="Argument.value"></stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="jsessionid" elementType="Argument">
+              <stringProp name="Argument.name">jsessionid</stringProp>
+              <stringProp name="Argument.value"></stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </Arguments>
+        <hashTree/>
+        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+          <collectionProp name="HeaderManager.headers">
+            <elementProp name="" elementType="Header">
+              <stringProp name="Header.name">User-Agent</stringProp>
+              <stringProp name="Header.value">safari</stringProp>
+            </elementProp>
+            <elementProp name="" elementType="Header">
+              <stringProp name="Header.name">Accept</stringProp>
+              <stringProp name="Header.value">image/gif, image/jpeg, image/pjpeg, application/x-ms-application, application/xaml+xml, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*</stringProp>
+            </elementProp>
+            <elementProp name="" elementType="Header">
+              <stringProp name="Header.name">Accept-Language</stringProp>
+              <stringProp name="Header.value">es-ES,es;q=0.5</stringProp>
+            </elementProp>
+          </collectionProp>
+        </HeaderManager>
+        <hashTree/>
+        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Step 1" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </LoopController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://itaca.edu.gva.es/itaca/Main.html" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">itaca.edu.gva.es</stringProp>
+            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/itaca/Main.html</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.implementation">Java</stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://acces.edu.gva.es/sso/login.xhtml" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="callbackUrl" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">https://itaca.edu.gva.es/itaca/Main.html</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">callbackUrl</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">acces.edu.gva.es</stringProp>
+            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/sso/login.xhtml</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.implementation">Java</stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="https://acces.edu.gva.es/sso/login.xhtml" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="requestDate" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value"></stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">requestDate</stringProp>
+                </elementProp>
+                <elementProp name="callback" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">https://itaca.edu.gva.es/itaca/Main.html</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">callback</stringProp>
+                </elementProp>
+                <elementProp name="j_username" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">prueba</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">j_username</stringProp>
+                </elementProp>
+                <elementProp name="j_password" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">prueba</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">j_password</stringProp>
+                </elementProp>
+                <elementProp name="j_id42" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">Entrar</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">j_id42</stringProp>
+                </elementProp>
+                <elementProp name="j_id23" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">j_id23</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">j_id23</stringProp>
+                </elementProp>
+                <elementProp name="autoScroll" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value"></stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">autoScroll</stringProp>
+                </elementProp>
+                <elementProp name="javax.faces.ViewState" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <stringProp name="Argument.value">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</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">javax.faces.ViewState</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">acces.edu.gva.es</stringProp>
+            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/sso/login.xhtml</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.implementation">Java</stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+          <KeystoreConfig guiclass="TestBeanGUI" testclass="KeystoreConfig" testname="Keystore Configuration" enabled="true">
+            <stringProp name="clientCertAliasVarName"></stringProp>
+            <stringProp name="endIndex"></stringProp>
+            <stringProp name="preload">True</stringProp>
+            <stringProp name="startIndex"></stringProp>
+          </KeystoreConfig>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+    </hashTree>
+    <WorkBench guiclass="WorkBenchGui" testclass="WorkBench" testname="Banco de Trabajo" enabled="true">
+      <boolProp name="WorkBench.save">true</boolProp>
+    </WorkBench>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>
