@@ -17,3 +17,6 @@ scenarios:
         method: GET
         label: 'Home'
         headers: {}
+reporting:
+   - module: blazemeter
+     test: Smoke Test

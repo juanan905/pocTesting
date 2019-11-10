@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.1.1 r1855137">
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.2">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Plan de Pruebas" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -176,6 +176,7 @@
       <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="Gestor de Cookies HTTP" enabled="true">
         <collectionProp name="CookieManager.cookies"/>
         <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+        <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
         <stringProp name="CookieManager.policy">compatibility</stringProp>
       </CookieManager>
       <hashTree/>
@@ -313,6 +314,7 @@
           <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="Gestor de Cookies HTTP" enabled="true">
             <collectionProp name="CookieManager.cookies"/>
             <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+            <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
             <stringProp name="CookieManager.policy">compatibility</stringProp>
           </CookieManager>
           <hashTree/>
@@ -369,7 +371,7 @@
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
             <stringProp name="delimiter">,</stringProp>
             <stringProp name="fileEncoding"></stringProp>
-            <stringProp name="filename">C:/Users/jant1/Documents/pocTesting/performance/demoGuru99-Bank/user.csv</stringProp>
+            <stringProp name="filename">C:/Users/jbrot/Documents/pocTesting/performance/demoGuru99-Bank/user.csv</stringProp>
             <boolProp name="ignoreFirstLine">false</boolProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">true</boolProp>
@@ -436,6 +438,7 @@
           <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="Gestor de Cookies HTTP" enabled="true">
             <collectionProp name="CookieManager.cookies"/>
             <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+            <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
             <stringProp name="CookieManager.policy">rfc2109</stringProp>
           </CookieManager>
           <hashTree/>
@@ -494,6 +497,7 @@
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Profile 1 - Add New Customer" enabled="true">
@@ -509,6 +513,7 @@
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
         <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="LOGIN USER" enabled="true">
@@ -532,6 +537,7 @@
           <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="Gestor de Cookies HTTP" enabled="true">
             <collectionProp name="CookieManager.cookies"/>
             <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+            <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
           </CookieManager>
           <hashTree/>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
@@ -649,7 +655,7 @@
                 </elementProp>
                 <elementProp name="emailid" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">jant90${contador}%40gmail.com</stringProp>
+                  <stringProp name="Argument.value">jant90${contador}@gmail.com</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                   <stringProp name="Argument.name">emailid</stringProp>
@@ -739,6 +745,7 @@
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
         <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="LOGIN USER" enabled="false">
@@ -756,7 +763,7 @@
         </TransactionController>
         <hashTree>
           <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Temporizador Constante" enabled="true">
-            <stringProp name="ConstantTimer.delay">5000</stringProp>
+            <stringProp name="ConstantTimer.delay">${timer}</stringProp>
           </ConstantTimer>
           <hashTree/>
           <kg.apc.jmeter.modifiers.FifoPopPreProcessor guiclass="kg.apc.jmeter.modifiers.FifoPopPreProcessorGui" testclass="kg.apc.jmeter.modifiers.FifoPopPreProcessor" testname="jp@gc - Inter-Thread Communication PreProcessor" enabled="true">
@@ -771,11 +778,18 @@
             <stringProp name="FifoName">SYNC_FIFO_COOKIE</stringProp>
           </kg.apc.jmeter.modifiers.FifoPopPreProcessor>
           <hashTree/>
+          <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="Gestor de Cookies HTTP" enabled="true">
+            <collectionProp name="CookieManager.cookies"/>
+            <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+            <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
+            <stringProp name="CookieManager.policy">compatibility</stringProp>
+          </CookieManager>
+          <hashTree/>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
             <collectionProp name="HeaderManager.headers">
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
-                <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8</stringProp>
+                <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3</stringProp>
               </elementProp>
               <elementProp name="Accept-Encoding" elementType="Header">
                 <stringProp name="Header.name">Accept-Encoding</stringProp>
@@ -783,35 +797,47 @@
               </elementProp>
               <elementProp name="Accept-Language" elementType="Header">
                 <stringProp name="Header.name">Accept-Language</stringProp>
-                <stringProp name="Header.value">es-ES,es;q=0.8</stringProp>
+                <stringProp name="Header.value">es-ES,es;q=0.9,en;q=0.8,fr;q=0.7</stringProp>
               </elementProp>
               <elementProp name="Cache-Control" elementType="Header">
                 <stringProp name="Header.name">Cache-Control</stringProp>
-                <stringProp name="Header.value">no-cache</stringProp>
+                <stringProp name="Header.value">max-age=0</stringProp>
               </elementProp>
               <elementProp name="Host" elementType="Header">
-                <stringProp name="Header.name">Origin</stringProp>
+                <stringProp name="Header.name">Host</stringProp>
                 <stringProp name="Header.value">demo.guru99.com</stringProp>
-              </elementProp>
-              <elementProp name="Pragma" elementType="Header">
-                <stringProp name="Header.name">Pragma</stringProp>
-                <stringProp name="Header.value">no-cache</stringProp>
-              </elementProp>
-              <elementProp name="Proxy-Connection" elementType="Header">
-                <stringProp name="Header.name">Proxy-Connection</stringProp>
-                <stringProp name="Header.value">keep-alive</stringProp>
-              </elementProp>
-              <elementProp name="Upgrade-Insecure-Requests" elementType="Header">
-                <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
-                <stringProp name="Header.value">1</stringProp>
               </elementProp>
               <elementProp name="User-Agent" elementType="Header">
                 <stringProp name="Header.name">User-Agent</stringProp>
-                <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36</stringProp>
+                <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36 </stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/x-www-form-urlencoded</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Connection</stringProp>
+                <stringProp name="Header.value">keep-alive</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
+                <stringProp name="Header.value">1</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Length</stringProp>
+                <stringProp name="Header.value">160</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Referer</stringProp>
+                <stringProp name="Header.value">http://demo.guru99.com/v4/manager/editCustomerPage.php</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Origin</stringProp>
+                <stringProp name="Header.value">http://demo.guru99.com</stringProp>
               </elementProp>
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">Cookie</stringProp>
-                <stringProp name="Header.value">${Cookie_gotData}</stringProp>
+                <stringProp name="Header.value">PHPSESSID=${Cookie_gotData}</stringProp>
               </elementProp>
             </collectionProp>
           </HeaderManager>
@@ -859,7 +885,7 @@
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="2.2 Edit Customer Page" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="2.2 Edit Customer Page" enabled="false">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="addr" elementType="HTTPArgument">
@@ -898,7 +924,7 @@
                   <stringProp name="Argument.name">telephoneno</stringProp>
                 </elementProp>
                 <elementProp name="emailid" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.value">jbrotons@everis.com</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
@@ -930,13 +956,13 @@
             <stringProp name="HTTPSampler.domain">${server}</stringProp>
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol">${protocol}</stringProp>
-            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
             <stringProp name="HTTPSampler.path">/V4/manager/editCustomerPage.php</stringProp>
-            <stringProp name="HTTPSampler.method">POST</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <stringProp name="HTTPSampler.method">PUT</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
             <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
             <stringProp name="HTTPSampler.proxyHost">${proxy}</stringProp>
             <stringProp name="HTTPSampler.proxyPort">${proxyPort}</stringProp>
@@ -972,7 +998,16 @@
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
           </HTTPSamplerProxy>
-          <hashTree/>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="false">
+              <collectionProp name="Asserion.test_strings"/>
+              <stringProp name="Assertion.custom_message"></stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">16</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
         </hashTree>
         <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="LOGOUT" enabled="false">
           <collectionProp name="ModuleController.node_path">
@@ -997,6 +1032,7 @@
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
         <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="LOGIN USER" enabled="false">
@@ -1071,6 +1107,7 @@
           <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
             <collectionProp name="CookieManager.cookies"/>
             <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+            <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
             <stringProp name="CookieManager.policy">rfc2109</stringProp>
           </CookieManager>
           <hashTree/>
@@ -1167,6 +1204,7 @@
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
         <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="LOGIN USER" enabled="true">
@@ -1241,6 +1279,7 @@
           <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
             <collectionProp name="CookieManager.cookies"/>
             <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+            <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
             <stringProp name="CookieManager.policy">rfc2109</stringProp>
           </CookieManager>
           <hashTree/>
@@ -1350,6 +1389,7 @@
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
         <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="LOGIN USER" enabled="true">
@@ -1424,6 +1464,7 @@
           <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
             <collectionProp name="CookieManager.cookies"/>
             <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+            <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
             <stringProp name="CookieManager.policy">rfc2109</stringProp>
           </CookieManager>
           <hashTree/>
@@ -1523,6 +1564,7 @@
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
         <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="LOGIN USER" enabled="true">
@@ -1597,6 +1639,7 @@
           <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
             <collectionProp name="CookieManager.cookies"/>
             <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+            <boolProp name="CookieManager.controlledByThreadGroup">false</boolProp>
             <stringProp name="CookieManager.policy">rfc2109</stringProp>
           </CookieManager>
           <hashTree/>
@@ -1696,6 +1739,7 @@
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
         <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="LOGIN USER" enabled="true">
@@ -1740,6 +1784,7 @@
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
         <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="LOGIN USER" enabled="true">
@@ -1784,6 +1829,7 @@
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Profile 00 - Prepare Datashet Oracle" enabled="false">
@@ -1799,6 +1845,7 @@
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
         <JDBCDataSource guiclass="TestBeanGUI" testclass="JDBCDataSource" testname="Configuración de la Conexión JDBC" enabled="true">
@@ -1816,6 +1863,7 @@
           <stringProp name="trimInterval">60000</stringProp>
           <stringProp name="username">HP_REQ</stringProp>
           <stringProp name="initQuery"></stringProp>
+          <boolProp name="preinit">false</boolProp>
         </JDBCDataSource>
         <hashTree/>
         <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Petición JDBC" enabled="true">
@@ -1828,6 +1876,7 @@
           <stringProp name="resultSetHandler">Store as String</stringProp>
           <stringProp name="resultVariable">dataset</stringProp>
           <stringProp name="variableNames"></stringProp>
+          <stringProp name="resultSetMaxRows"></stringProp>
         </JDBCSampler>
         <hashTree>
           <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
@@ -1861,6 +1910,7 @@
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
         <JDBCDataSource guiclass="TestBeanGUI" testclass="JDBCDataSource" testname="Configuración de la Conexión JDBC" enabled="true">
@@ -1878,6 +1928,7 @@
           <stringProp name="trimInterval">60000</stringProp>
           <stringProp name="username">sql11204833</stringProp>
           <stringProp name="initQuery"></stringProp>
+          <boolProp name="preinit">false</boolProp>
         </JDBCDataSource>
         <hashTree/>
         <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Petición JDBC" enabled="true">
@@ -1890,6 +1941,7 @@
           <stringProp name="resultSetHandler">Store as String</stringProp>
           <stringProp name="resultVariable">dataset</stringProp>
           <stringProp name="variableNames"></stringProp>
+          <stringProp name="resultSetMaxRows"></stringProp>
         </JDBCSampler>
         <hashTree>
           <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
