@@ -12,6 +12,16 @@
             <stringProp name="Argument.value">0087;481002;BV</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="server" elementType="Argument">
+            <stringProp name="Argument.name">server</stringProp>
+            <stringProp name="Argument.value">192.168.100.26</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="port" elementType="Argument">
+            <stringProp name="Argument.name">port</stringProp>
+            <stringProp name="Argument.value">32781</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </elementProp>
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
@@ -67,8 +77,8 @@
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">localhost</stringProp>
-            <stringProp name="HTTPSampler.port">8080</stringProp>
+            <stringProp name="HTTPSampler.domain">${server}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
             <stringProp name="HTTPSampler.path">/actions/Catalog.action</stringProp>
@@ -91,7 +101,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Host</stringProp>
-                  <stringProp name="Header.value">localhost:8080</stringProp>
+                  <stringProp name="Header.value">${server}:${port}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Connection</stringProp>
@@ -111,7 +121,7 @@
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/actions/Catalog.action</stringProp>
+                  <stringProp name="Header.value">http://${server}:${port}/actions/Catalog.action</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Accept-Encoding</stringProp>
@@ -143,8 +153,8 @@
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">localhost:8080</stringProp>
-            <stringProp name="HTTPSampler.port">8080</stringProp>
+            <stringProp name="HTTPSampler.domain">${server}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
             <stringProp name="HTTPSampler.path">/actions/Account.action</stringProp>
@@ -154,7 +164,6 @@
             <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
             <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.implementation">HttpClient4</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
           </HTTPSamplerProxy>
@@ -167,7 +176,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Host</stringProp>
-                  <stringProp name="Header.value">localhost:8080</stringProp>
+                  <stringProp name="Header.value">${server}:${port}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Connection</stringProp>
@@ -187,7 +196,7 @@
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/actions/Catalog.action</stringProp>
+                  <stringProp name="Header.value">http://${server}:${port}/actions/Catalog.action</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Accept-Encoding</stringProp>
@@ -233,8 +242,8 @@
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">localhost:8080</stringProp>
-            <stringProp name="HTTPSampler.port">8080</stringProp>
+            <stringProp name="HTTPSampler.domain">${server}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
             <stringProp name="HTTPSampler.path">/actions/Catalog.action</stringProp>
@@ -260,7 +269,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Host</stringProp>
-                  <stringProp name="Header.value">localhost:8080</stringProp>
+                  <stringProp name="Header.value">${server}:${port}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Connection</stringProp>
@@ -284,7 +293,7 @@
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/actions/Account.action?signonForm=</stringProp>
+                  <stringProp name="Header.value">http://${server}:${port}/actions/Account.action?signonForm=</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Accept-Encoding</stringProp>
@@ -342,8 +351,8 @@
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">localhost:8080</stringProp>
-            <stringProp name="HTTPSampler.port">8080</stringProp>
+            <stringProp name="HTTPSampler.domain">${server}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
             <stringProp name="HTTPSampler.path">/actions/Account.action</stringProp>
@@ -368,7 +377,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Host</stringProp>
-                  <stringProp name="Header.value">localhost:8080</stringProp>
+                  <stringProp name="Header.value">${server}:${port}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Connection</stringProp>
@@ -384,7 +393,7 @@
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080</stringProp>
+                  <stringProp name="Header.value">http://${server}:${port}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
@@ -404,7 +413,7 @@
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/actions/Account.action?signonForm=</stringProp>
+                  <stringProp name="Header.value">http://${server}:${port}/actions/Account.action?signonForm=</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Accept-Encoding</stringProp>
@@ -447,8 +456,8 @@
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">localhost:8080</stringProp>
-            <stringProp name="HTTPSampler.port">8080</stringProp>
+            <stringProp name="HTTPSampler.domain">${server}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
             <stringProp name="HTTPSampler.path">/actions/Catalog.action</stringProp>
@@ -473,7 +482,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Host</stringProp>
-                  <stringProp name="Header.value">localhost:8080</stringProp>
+                  <stringProp name="Header.value">${server}:${port}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Connection</stringProp>
@@ -493,7 +502,7 @@
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/actions/Catalog.action</stringProp>
+                  <stringProp name="Header.value">http://${server}:${port}/actions/Catalog.action</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Accept-Encoding</stringProp>
@@ -536,8 +545,8 @@
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">localhost:8080</stringProp>
-            <stringProp name="HTTPSampler.port">8080</stringProp>
+            <stringProp name="HTTPSampler.domain">${server}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
             <stringProp name="HTTPSampler.path">/actions/Catalog.action</stringProp>
@@ -563,7 +572,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Host</stringProp>
-                  <stringProp name="Header.value">localhost:8080</stringProp>
+                  <stringProp name="Header.value">${server}:${port}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Connection</stringProp>
@@ -583,7 +592,7 @@
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/actions/Catalog.action?viewCategory=&amp;categoryId=DOGS</stringProp>
+                  <stringProp name="Header.value">http://${server}:${port}/actions/Catalog.action?viewCategory=&amp;categoryId=DOGS</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Accept-Encoding</stringProp>
@@ -626,8 +635,8 @@
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">localhost:8080</stringProp>
-            <stringProp name="HTTPSampler.port">8080</stringProp>
+            <stringProp name="HTTPSampler.domain">${server}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
             <stringProp name="HTTPSampler.path">/actions/Cart.action</stringProp>
@@ -652,7 +661,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Host</stringProp>
-                  <stringProp name="Header.value">localhost:8080</stringProp>
+                  <stringProp name="Header.value">${server}:${port}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Connection</stringProp>
@@ -672,7 +681,7 @@
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/actions/Catalog.action?viewProduct=&amp;productId=K9-BD-01</stringProp>
+                  <stringProp name="Header.value">http://${server}:${port}/actions/Catalog.action?viewProduct=&amp;productId=K9-BD-01</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Accept-Encoding</stringProp>
@@ -702,8 +711,8 @@
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">localhost:8080</stringProp>
-            <stringProp name="HTTPSampler.port">8080</stringProp>
+            <stringProp name="HTTPSampler.domain">${server}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
             <stringProp name="HTTPSampler.path">/actions/Order.action</stringProp>
@@ -728,7 +737,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Host</stringProp>
-                  <stringProp name="Header.value">localhost:8080</stringProp>
+                  <stringProp name="Header.value">${server}:${port}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Connection</stringProp>
@@ -748,7 +757,7 @@
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/actions/Cart.action?addItemToCart=&amp;workingItemId=EST-6</stringProp>
+                  <stringProp name="Header.value">http://${server}:${port}/actions/Cart.action?addItemToCart=&amp;workingItemId=EST-6</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Accept-Encoding</stringProp>
@@ -887,8 +896,8 @@
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">localhost:8080</stringProp>
-            <stringProp name="HTTPSampler.port">8080</stringProp>
+            <stringProp name="HTTPSampler.domain">${server}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
             <stringProp name="HTTPSampler.path">/actions/Order.action</stringProp>
@@ -913,7 +922,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Host</stringProp>
-                  <stringProp name="Header.value">localhost:8080</stringProp>
+                  <stringProp name="Header.value">${server}:${port}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Connection</stringProp>
@@ -929,7 +938,7 @@
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080</stringProp>
+                  <stringProp name="Header.value">http://${server}:${port}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Upgrade-Insecure-Requests</stringProp>
@@ -949,7 +958,7 @@
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/actions/Order.action?newOrderForm=</stringProp>
+                  <stringProp name="Header.value">http://${server}:${port}/actions/Order.action?newOrderForm=</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Accept-Encoding</stringProp>
@@ -986,8 +995,8 @@
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">localhost:8080</stringProp>
-            <stringProp name="HTTPSampler.port">8080</stringProp>
+            <stringProp name="HTTPSampler.domain">${server}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
             <stringProp name="HTTPSampler.path">/actions/Order.action</stringProp>
@@ -1012,7 +1021,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Host</stringProp>
-                  <stringProp name="Header.value">localhost:8080</stringProp>
+                  <stringProp name="Header.value">${server}:${port}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Connection</stringProp>
@@ -1032,7 +1041,7 @@
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/actions/Order.action</stringProp>
+                  <stringProp name="Header.value">http://${server}:${port}/actions/Order.action</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Accept-Encoding</stringProp>
@@ -1078,8 +1087,8 @@
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">localhost:8080</stringProp>
-            <stringProp name="HTTPSampler.port">8080</stringProp>
+            <stringProp name="HTTPSampler.domain">${server}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
             <stringProp name="HTTPSampler.path">/actions/Account.action</stringProp>
@@ -1104,7 +1113,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Host</stringProp>
-                  <stringProp name="Header.value">localhost:8080</stringProp>
+                  <stringProp name="Header.value">${server}:${port}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Connection</stringProp>
@@ -1124,7 +1133,7 @@
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/actions/Order.action?newOrder=&amp;confirmed=true</stringProp>
+                  <stringProp name="Header.value">http://${server}:${port}/actions/Order.action?newOrder=&amp;confirmed=true</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Accept-Encoding</stringProp>
@@ -1146,8 +1155,8 @@
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">localhost:8080</stringProp>
-            <stringProp name="HTTPSampler.port">8080</stringProp>
+            <stringProp name="HTTPSampler.domain">${server}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
             <stringProp name="HTTPSampler.protocol">http</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
             <stringProp name="HTTPSampler.path">/actions/Catalog.action</stringProp>
@@ -1173,7 +1182,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Host</stringProp>
-                  <stringProp name="Header.value">localhost:8080</stringProp>
+                  <stringProp name="Header.value">${server}:${port}</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Connection</stringProp>
@@ -1193,7 +1202,7 @@
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/actions/Order.action?newOrder=&amp;confirmed=true</stringProp>
+                  <stringProp name="Header.value">http://${server}:${port}/actions/Order.action?newOrder=&amp;confirmed=true</stringProp>
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Accept-Encoding</stringProp>
