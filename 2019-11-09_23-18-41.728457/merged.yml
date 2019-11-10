@@ -1,0 +1,20 @@
+---
+execution:
+  concurrency: 1
+  hold-for: 1m
+  ramp-up: 1m
+  scenario: Demo
+scenarios:
+  Demo:
+    headers:
+      Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+      Accept-Encoding: gzip, deflate
+      Accept-Language: en-US,en;q=0.9,he;q=0.8
+      Upgrade-Insecure-Requests: '1'
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    requests:
+    - headers: {}
+      label: Home
+      method: GET
+      url: http://blazedemo.com/
+
