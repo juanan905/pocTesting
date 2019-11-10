@@ -1,0 +1,21 @@
+host:db4free.net
+
+Database: poctesting
+User: poctesting
+Password: pocTesting01
+
+
+
+mysql driver: com.mysql.jdbc.Driver
+DatabaseURL: jdbc:mysql://db4free.net:3306/poctesting
+
+
+CREATE TABLE customer (
+customer_no INT NOT NULL PRIMARY KEY,
+customer_name VARCHAR(40) NOT NULL,
+customer_status_code CHAR(10) NOT NULL);
+
+
+insert into customer values ('123', 'Pepe', 'Active');
+insert into customer values ('124', 'Fran', 'Active');
+insert into customer values ('125', 'Juan', 'Inactive');
