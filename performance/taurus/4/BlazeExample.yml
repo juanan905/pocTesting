@@ -16,3 +16,6 @@ scenarios:
       label: reserve
       method: POST
       url: http://blazdemo.com/reserve.php
+reporting:
+   - module: blazemeter
+     test: Smoke Test
