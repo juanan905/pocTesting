@@ -1,0 +1,31 @@
+2019-11-13 12:37:45,755 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2019-11-13 12:37:45,769 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2019-11-13 12:37:45,769 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2019-11-13 12:37:45,771 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2019-11-13 12:37:45,771 INFO o.a.j.JMeter: Version 5.2
+2019-11-13 12:37:45,771 INFO o.a.j.JMeter: java.version=1.8.0_231
+2019-11-13 12:37:45,771 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-11-13 12:37:45,771 INFO o.a.j.JMeter: os.name=Windows 10
+2019-11-13 12:37:45,771 INFO o.a.j.JMeter: os.arch=amd64
+2019-11-13 12:37:45,771 INFO o.a.j.JMeter: os.version=10.0
+2019-11-13 12:37:45,772 INFO o.a.j.JMeter: file.encoding=Cp1252
+2019-11-13 12:37:45,772 INFO o.a.j.JMeter: java.awt.headless=true
+2019-11-13 12:37:45,772 INFO o.a.j.JMeter: Max memory     =1073741824
+2019-11-13 12:37:45,772 INFO o.a.j.JMeter: Available Processors =8
+2019-11-13 12:37:45,776 INFO o.a.j.JMeter: Default Locale=English (EN)
+2019-11-13 12:37:45,777 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2019-11-13 12:37:45,777 INFO o.a.j.JMeter: JMeterHome=C:\Users\jbrot\Downloads\apache-jmeter-5.2\apache-jmeter-5.2
+2019-11-13 12:37:45,777 INFO o.a.j.JMeter: user.dir  =C:\Users\jbrot\Downloads\apache-jmeter-5.2\apache-jmeter-5.2\bin
+2019-11-13 12:37:45,777 INFO o.a.j.JMeter: PWD       =C:\Users\jbrot\Downloads\apache-jmeter-5.2\apache-jmeter-5.2\bin
+2019-11-13 12:37:50,298 INFO o.a.j.JMeter: IP: 10.0.75.1 Name: DESKTOP-0EKCQSS FullName: DESKTOP-0EKCQSS
+2019-11-13 12:37:50,301 ERROR o.a.j.JMeter: An error occurred: 
+java.lang.IllegalArgumentException: Cannot write to 'C:\DASHBOARD' as folder is not empty
+	at org.apache.jorphan.util.JOrphanUtils.canSafelyWriteToFolder(JOrphanUtils.java:663) ~[jorphan.jar:5.2]
+	at org.apache.jorphan.util.JOrphanUtils.canSafelyWriteToFolder(JOrphanUtils.java:619) ~[jorphan.jar:5.2]
+	at org.apache.jmeter.JMeter.extractAndSetReportOutputFolder(JMeter.java:594) ~[ApacheJMeter_core.jar:5.2]
+	at org.apache.jmeter.JMeter.start(JMeter.java:548) [ApacheJMeter_core.jar:5.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_231]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_231]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_231]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_231]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:253) [ApacheJMeter.jar:5.2]

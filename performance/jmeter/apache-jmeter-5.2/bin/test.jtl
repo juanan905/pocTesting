@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1573644560108,421,HTTP Request Courses,200,OK,Thread Group Courses 2-1,text,true,,17271,257,1,2,http://nexoqa.com/es-courses.php,362,0,254
+1573644565005,220,HTTP Request NexoQA,200,OK,Thread Group Main Page 1-1,text,true,,18578,115,1,1,http://nexoqa.com/,154,0,73
