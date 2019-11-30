@@ -1,0 +1,609 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1573648379118,1081,HTTP Request,200,OK,Thread Group 1-1,text,true,,12103,126,100,100,http://localhost:3000/courses,1081,0,1
+1573648379246,1039,HTTP Request,200,OK,Thread Group 1-14,text,true,,12103,126,100,100,http://localhost:3000/courses,1039,0,1
+1573648379397,1019,HTTP Request,200,OK,Thread Group 1-29,text,true,,12103,126,100,100,http://localhost:3000/courses,1019,0,1
+1573648379592,1173,HTTP Request,200,OK,Thread Group 1-48,text,true,,12103,126,100,100,http://localhost:3000/courses,1173,0,0
+1573648379867,1116,HTTP Request,200,OK,Thread Group 1-76,text,true,,12103,126,100,100,http://localhost:3000/courses,1116,0,1
+1573648379937,1158,HTTP Request,200,OK,Thread Group 1-83,text,true,,12103,126,100,100,http://localhost:3000/courses,1158,0,1
+1573648379948,1204,HTTP Request,200,OK,Thread Group 1-84,text,true,,12103,126,100,100,http://localhost:3000/courses,1204,0,1
+1573648380286,1125,HTTP Request,200,OK,Thread Group 1-14,text,true,,12103,126,100,100,http://localhost:3000/courses,1125,0,0
+1573648381096,1049,HTTP Request,200,OK,Thread Group 1-83,text,true,,12103,126,100,100,http://localhost:3000/courses,1049,0,0
+1573648379128,4050,HTTP Request,200,OK,Thread Group 1-2,text,true,,12103,126,100,100,http://localhost:3000/courses,4050,0,0
+1573648379137,4131,HTTP Request,200,OK,Thread Group 1-3,text,true,,12103,126,100,100,http://localhost:3000/courses,4131,0,1
+1573648379188,4226,HTTP Request,200,OK,Thread Group 1-8,text,true,,12103,126,100,100,http://localhost:3000/courses,4226,0,1
+1573648379227,4269,HTTP Request,200,OK,Thread Group 1-12,text,true,,12103,126,100,100,http://localhost:3000/courses,4269,0,1
+1573648379156,4401,HTTP Request,200,OK,Thread Group 1-5,text,true,,12103,126,100,100,http://localhost:3000/courses,4401,0,1
+1573648379268,4344,HTTP Request,200,OK,Thread Group 1-16,text,true,,12103,126,100,100,http://localhost:3000/courses,4344,0,0
+1573648379347,4422,HTTP Request,200,OK,Thread Group 1-24,text,true,,12103,126,100,100,http://localhost:3000/courses,4422,0,0
+1573648379489,4351,HTTP Request,200,OK,Thread Group 1-38,text,true,,12103,126,100,100,http://localhost:3000/courses,4351,0,1
+1573648379376,4520,HTTP Request,200,OK,Thread Group 1-27,text,true,,12103,126,100,100,http://localhost:3000/courses,4520,0,1
+1573648379828,4160,HTTP Request,200,OK,Thread Group 1-72,text,true,,12103,126,100,100,http://localhost:3000/courses,4160,0,1
+1573648379688,4378,HTTP Request,200,OK,Thread Group 1-58,text,true,,12103,126,100,100,http://localhost:3000/courses,4378,0,1
+1573648379619,4518,HTTP Request,200,OK,Thread Group 1-51,text,true,,12103,126,100,100,http://localhost:3000/courses,4518,0,0
+1573648379888,4310,HTTP Request,200,OK,Thread Group 1-78,text,true,,12103,126,100,100,http://localhost:3000/courses,4310,0,1
+1573648379908,4363,HTTP Request,200,OK,Thread Group 1-80,text,true,,12103,126,100,100,http://localhost:3000/courses,4363,0,0
+1573648379839,4604,HTTP Request,200,OK,Thread Group 1-73,text,true,,12103,126,100,100,http://localhost:3000/courses,4604,0,1
+1573648380008,4526,HTTP Request,200,OK,Thread Group 1-90,text,true,,12103,126,100,100,http://localhost:3000/courses,4526,0,1
+1573648380038,4571,HTTP Request,200,OK,Thread Group 1-93,text,true,,12103,126,100,100,http://localhost:3000/courses,4571,0,1
+1573648379917,4753,HTTP Request,200,OK,Thread Group 1-81,text,true,,12103,126,100,100,http://localhost:3000/courses,4753,0,1
+1573648380097,4642,HTTP Request,200,OK,Thread Group 1-99,text,true,,12103,126,100,100,http://localhost:3000/courses,4642,0,1
+1573648383268,1763,HTTP Request,200,OK,Thread Group 1-3,text,true,,12103,126,100,100,http://localhost:3000/courses,1763,0,0
+1573648380983,4111,HTTP Request,200,OK,Thread Group 1-76,text,true,,12103,126,100,100,http://localhost:3000/courses,4111,0,0
+1573648384738,981,HTTP Request,200,OK,Thread Group 1-99,text,true,,12103,126,100,100,http://localhost:3000/courses,981,0,1
+1573648379177,7077,HTTP Request,200,OK,Thread Group 1-7,text,true,,12103,126,100,100,http://localhost:3000/courses,7077,0,1
+1573648379148,7190,HTTP Request,200,OK,Thread Group 1-4,text,true,,12103,126,100,100,http://localhost:3000/courses,7190,0,1
+1573648379217,7209,HTTP Request,200,OK,Thread Group 1-11,text,true,,12103,126,100,100,http://localhost:3000/courses,7209,0,1
+1573648379198,7310,HTTP Request,200,OK,Thread Group 1-9,text,true,,12103,126,100,100,http://localhost:3000/courses,7310,0,1
+1573648379208,7428,HTTP Request,200,OK,Thread Group 1-10,text,true,,12103,126,100,100,http://localhost:3000/courses,7428,0,1
+1573648379278,7465,HTTP Request,200,OK,Thread Group 1-17,text,true,,12103,126,100,100,http://localhost:3000/courses,7465,0,0
+1573648379356,7471,HTTP Request,200,OK,Thread Group 1-25,text,true,,12103,126,100,100,http://localhost:3000/courses,7471,0,1
+1573648379286,7605,HTTP Request,200,OK,Thread Group 1-18,text,true,,12103,126,100,100,http://localhost:3000/courses,7605,0,1
+1573648379257,7746,HTTP Request,200,OK,Thread Group 1-15,text,true,,12103,126,100,100,http://localhost:3000/courses,7746,0,1
+1573648379366,7740,HTTP Request,200,OK,Thread Group 1-26,text,true,,12103,126,100,100,http://localhost:3000/courses,7740,0,1
+1573648379437,7731,HTTP Request,200,OK,Thread Group 1-33,text,true,,12103,126,100,100,http://localhost:3000/courses,7730,0,1
+1573648379499,7737,HTTP Request,200,OK,Thread Group 1-39,text,true,,12103,126,100,100,http://localhost:3000/courses,7737,0,1
+1573648379449,7842,HTTP Request,200,OK,Thread Group 1-34,text,true,,12103,126,100,100,http://localhost:3000/courses,7842,0,1
+1573648379297,8048,HTTP Request,200,OK,Thread Group 1-19,text,true,,12103,126,100,100,http://localhost:3000/courses,8048,0,0
+1573648379327,8087,HTTP Request,200,OK,Thread Group 1-22,text,true,,12103,126,100,100,http://localhost:3000/courses,8087,0,1
+1573648379518,7963,HTTP Request,200,OK,Thread Group 1-41,text,true,,12103,126,100,100,http://localhost:3000/courses,7963,0,1
+1573648379460,8110,HTTP Request,200,OK,Thread Group 1-35,text,true,,12103,126,100,100,http://localhost:3000/courses,8110,0,0
+1573648379387,8246,HTTP Request,200,OK,Thread Group 1-28,text,true,,12103,126,100,100,http://localhost:3000/courses,8246,0,1
+1573648379468,8242,HTTP Request,200,OK,Thread Group 1-36,text,true,,12103,126,100,100,http://localhost:3000/courses,8242,0,1
+1573648379670,8146,HTTP Request,200,OK,Thread Group 1-56,text,true,,12103,126,100,100,http://localhost:3000/courses,8146,0,1
+1573648379647,8235,HTTP Request,200,OK,Thread Group 1-54,text,true,,12103,126,100,100,http://localhost:3000/courses,8235,0,1
+1573648379428,8529,HTTP Request,200,OK,Thread Group 1-32,text,true,,12103,126,100,100,http://localhost:3000/courses,8529,0,0
+1573648379779,8293,HTTP Request,200,OK,Thread Group 1-67,text,true,,12103,126,100,100,http://localhost:3000/courses,8293,0,1
+1573648379698,8442,HTTP Request,200,OK,Thread Group 1-59,text,true,,12103,126,100,100,http://localhost:3000/courses,8442,0,1
+1573648379799,8413,HTTP Request,200,OK,Thread Group 1-69,text,true,,12103,126,100,100,http://localhost:3000/courses,8413,0,1
+1573648379564,8718,HTTP Request,200,OK,Thread Group 1-45,text,true,,12103,126,100,100,http://localhost:3000/courses,8718,0,1
+1573648379550,8853,HTTP Request,200,OK,Thread Group 1-44,text,true,,12103,126,100,100,http://localhost:3000/courses,8853,0,1
+1573648379740,8740,HTTP Request,200,OK,Thread Group 1-63,text,true,,12103,126,100,100,http://localhost:3000/courses,8740,0,0
+1573648379768,8780,HTTP Request,200,OK,Thread Group 1-66,text,true,,12103,126,100,100,http://localhost:3000/courses,8780,0,1
+1573648379658,8951,HTTP Request,200,OK,Thread Group 1-55,text,true,,12103,126,100,100,http://localhost:3000/courses,8951,0,1
+1573648380077,8587,HTTP Request,200,OK,Thread Group 1-97,text,true,,12103,126,100,100,http://localhost:3000/courses,8587,0,1
+1573648385720,3000,HTTP Request,200,OK,Thread Group 1-99,text,true,,12103,126,100,100,http://localhost:3000/courses,3000,0,0
+1573648379976,8803,HTTP Request,200,OK,Thread Group 1-87,text,true,,12103,126,100,100,http://localhost:3000/courses,8803,0,1
+1573648380048,8786,HTTP Request,200,OK,Thread Group 1-94,text,true,,12103,126,100,100,http://localhost:3000/courses,8786,0,1
+1573648380028,8861,HTTP Request,200,OK,Thread Group 1-92,text,true,,12103,126,100,100,http://localhost:3000/courses,8861,0,1
+1573648379640,9372,HTTP Request,200,OK,Thread Group 1-53,text,true,,12103,126,100,100,http://localhost:3000/courses,9372,0,1
+1573648379611,9474,HTTP Request,200,OK,Thread Group 1-50,text,true,,12103,126,100,100,http://localhost:3000/courses,9473,0,1
+1573648379680,9466,HTTP Request,200,OK,Thread Group 1-57,text,true,,12103,126,100,100,http://localhost:3000/courses,9466,0,1
+1573648379809,9430,HTTP Request,200,OK,Thread Group 1-70,text,true,,12103,126,100,100,http://localhost:3000/courses,9430,0,1
+1573648383768,5522,HTTP Request,200,OK,Thread Group 1-24,text,true,,12103,126,100,100,http://localhost:3000/courses,5522,0,1
+1573648379859,9550,HTTP Request,200,OK,Thread Group 1-75,text,true,,12103,126,100,100,http://localhost:3000/courses,9550,0,0
+1573648379848,9646,HTTP Request,200,OK,Thread Group 1-74,text,true,,12103,126,100,100,http://localhost:3000/courses,9646,0,1
+1573648379720,9831,HTTP Request,200,OK,Thread Group 1-61,text,true,,12103,126,100,100,http://localhost:3000/courses,9831,0,1
+1573648379958,9646,HTTP Request,200,OK,Thread Group 1-85,text,true,,12103,126,100,100,http://localhost:3000/courses,9646,0,1
+1573648379877,9782,HTTP Request,200,OK,Thread Group 1-77,text,true,,12103,126,100,100,http://localhost:3000/courses,9782,0,0
+1573648383611,6138,HTTP Request,200,OK,Thread Group 1-16,text,true,,12103,126,100,100,http://localhost:3000/courses,6138,0,1
+1573648379967,9847,HTTP Request,200,OK,Thread Group 1-86,text,true,,12103,126,100,100,http://localhost:3000/courses,9847,0,1
+1573648380056,9816,HTTP Request,200,OK,Thread Group 1-95,text,true,,12103,126,100,100,http://localhost:3000/courses,9816,0,1
+1573648379317,10608,HTTP Request,200,OK,Thread Group 1-21,text,true,,12103,126,100,100,http://localhost:3000/courses,10608,0,0
+1573648379927,10054,HTTP Request,200,OK,Thread Group 1-82,text,true,,12103,126,100,100,http://localhost:3000/courses,10053,0,1
+1573648383496,6538,HTTP Request,200,OK,Thread Group 1-12,text,true,,12103,126,100,100,http://localhost:3000/courses,6538,0,0
+1573648379237,10851,HTTP Request,200,OK,Thread Group 1-13,text,true,,12103,126,100,100,http://localhost:3000/courses,10851,0,1
+1573648379306,10836,HTTP Request,200,OK,Thread Group 1-20,text,true,,12103,126,100,100,http://localhost:3000/courses,10836,0,1
+1573648379897,10311,HTTP Request,200,OK,Thread Group 1-79,text,true,,12103,126,100,100,http://localhost:3000/courses,10310,0,1
+1573648380766,9560,HTTP Request,200,OK,Thread Group 1-48,text,true,,12103,126,100,100,http://localhost:3000/courses,9560,0,0
+1573648381152,9260,HTTP Request,200,OK,Thread Group 1-84,text,true,,12103,126,100,100,http://localhost:3000/courses,9260,0,0
+1573648379167,11308,HTTP Request,200,OK,Thread Group 1-6,text,true,,12103,126,100,100,http://localhost:3000/courses,11308,0,1
+1573648383896,6637,HTTP Request,200,OK,Thread Group 1-27,text,true,,12103,126,100,100,http://localhost:3000/courses,6637,0,0
+1573648379337,11256,HTTP Request,200,OK,Thread Group 1-23,text,true,,12103,126,100,100,http://localhost:3000/courses,11256,0,1
+1573648384136,6508,HTTP Request,200,OK,Thread Group 1-51,text,true,,12103,126,100,100,http://localhost:3000/courses,6508,0,1
+1573648383413,7286,HTTP Request,200,OK,Thread Group 1-8,text,true,,12103,126,100,100,http://localhost:3000/courses,7286,0,0
+1573648379409,11376,HTTP Request,200,OK,Thread Group 1-30,text,true,,12103,126,100,100,http://localhost:3000/courses,11376,0,1
+1573648379508,11353,HTTP Request,200,OK,Thread Group 1-40,text,true,,12103,126,100,100,http://localhost:3000/courses,11353,0,1
+1573648379530,11414,HTTP Request,200,OK,Thread Group 1-42,text,true,,12103,126,100,100,http://localhost:3000/courses,11414,0,1
+1573648379631,11380,HTTP Request,200,OK,Thread Group 1-52,text,true,,12103,126,100,100,http://localhost:3000/courses,11380,0,1
+1573648379568,11536,HTTP Request,200,OK,Thread Group 1-46,text,true,,12103,126,100,100,http://localhost:3000/courses,11536,0,1
+1573648386253,4907,HTTP Request,200,OK,Thread Group 1-7,text,true,,12103,126,100,100,http://localhost:3000/courses,4907,0,1
+1573648379709,11536,HTTP Request,200,OK,Thread Group 1-60,text,true,,12103,126,100,100,http://localhost:3000/courses,11536,0,1
+1573648379478,11823,HTTP Request,200,OK,Thread Group 1-37,text,true,,12103,126,100,100,http://localhost:3000/courses,11822,0,1
+1573648379749,11606,HTTP Request,200,OK,Thread Group 1-64,text,true,,12103,126,100,100,http://localhost:3000/courses,11606,0,1
+1573648383556,7852,HTTP Request,200,OK,Thread Group 1-5,text,true,,12103,126,100,100,http://localhost:3000/courses,7852,0,0
+1573648379539,11935,HTTP Request,200,OK,Thread Group 1-43,text,true,,12103,126,100,100,http://localhost:3000/courses,11935,0,1
+1573648379730,11959,HTTP Request,200,OK,Thread Group 1-62,text,true,,12103,126,100,100,http://localhost:3000/courses,11959,0,1
+1573648379760,12006,HTTP Request,200,OK,Thread Group 1-65,text,true,,12103,126,100,100,http://localhost:3000/courses,12006,0,1
+1573648384533,7298,HTTP Request,200,OK,Thread Group 1-90,text,true,,12103,126,100,100,http://localhost:3000/courses,7298,0,1
+1573648379818,12082,HTTP Request,200,OK,Thread Group 1-71,text,true,,12103,126,100,100,http://localhost:3000/courses,12082,0,1
+1573648387413,4564,HTTP Request,200,OK,Thread Group 1-22,text,true,,12103,126,100,100,http://localhost:3000/courses,4564,0,1
+1573648380018,12018,HTTP Request,200,OK,Thread Group 1-91,text,true,,12103,126,100,100,http://localhost:3000/courses,12018,0,1
+1573648380199,11911,HTTP Request,200,OK,Thread Group 1-1,text,true,,12103,126,100,100,http://localhost:3000/courses,11911,0,0
+1573648379986,12279,HTTP Request,200,OK,Thread Group 1-88,text,true,,12103,126,100,100,http://localhost:3000/courses,12279,0,1
+1573648380107,12238,HTTP Request,200,OK,Thread Group 1-100,text,true,,12103,126,100,100,http://localhost:3000/courses,12238,0,1
+1573648380416,11985,HTTP Request,200,OK,Thread Group 1-29,text,true,,12103,126,100,100,http://localhost:3000/courses,11985,0,0
+1573648380067,12390,HTTP Request,200,OK,Thread Group 1-96,text,true,,12103,126,100,100,http://localhost:3000/courses,12390,0,1
+1573648379997,12514,HTTP Request,200,OK,Thread Group 1-89,text,true,,12103,126,100,100,http://localhost:3000/courses,12514,0,1
+1573648389012,3571,HTTP Request,200,OK,Thread Group 1-53,text,true,,12103,126,100,100,http://localhost:3000/courses,3571,0,0
+1573648390035,2665,HTTP Request,200,OK,Thread Group 1-12,text,true,,12103,126,100,100,http://localhost:3000/courses,2665,0,1
+1573648386635,6132,HTTP Request,200,OK,Thread Group 1-10,text,true,,12103,126,100,100,http://localhost:3000/courses,6132,0,1
+1573648383987,8858,HTTP Request,200,OK,Thread Group 1-72,text,true,,12103,126,100,100,http://localhost:3000/courses,8858,0,1
+1573648387569,5410,HTTP Request,200,OK,Thread Group 1-35,text,true,,12103,126,100,100,http://localhost:3000/courses,5410,0,1
+1573648384270,8776,HTTP Request,200,OK,Thread Group 1-80,text,true,,12103,126,100,100,http://localhost:3000/courses,8776,0,0
+1573648381411,11707,HTTP Request,200,OK,Thread Group 1-14,text,true,,12103,126,100,100,http://localhost:3000/courses,11707,0,1
+1573648387002,6183,HTTP Request,200,OK,Thread Group 1-15,text,true,,12103,126,100,100,http://localhost:3000/courses,6183,0,1
+1573648382145,11108,HTTP Request,200,OK,Thread Group 1-83,text,true,,12103,126,100,100,http://localhost:3000/courses,11108,0,1
+1573648379419,13891,HTTP Request,200,OK,Thread Group 1-31,text,true,,12103,126,100,100,http://localhost:3000/courses,13891,0,1
+1573648388211,5239,HTTP Request,200,OK,Thread Group 1-69,text,true,,12103,126,100,100,http://localhost:3000/courses,5239,0,1
+1573648383178,10416,HTTP Request,200,OK,Thread Group 1-2,text,true,,12103,126,100,100,http://localhost:3000/courses,10416,0,0
+1573648392036,1628,HTTP Request,200,OK,Thread Group 1-91,text,true,,12103,126,100,100,http://localhost:3000/courses,1628,0,1
+1573648391979,1747,HTTP Request,200,OK,Thread Group 1-22,text,true,,12103,126,100,100,http://localhost:3000/courses,1747,0,0
+1573648379578,14224,HTTP Request,200,OK,Thread Group 1-47,text,true,,12103,126,100,100,http://localhost:3000/courses,14224,0,1
+1573648379600,14259,HTTP Request,200,OK,Thread Group 1-49,text,true,,12103,126,100,100,http://localhost:3000/courses,14259,0,1
+1573648387105,6875,HTTP Request,200,OK,Thread Group 1-26,text,true,,12103,126,100,100,http://localhost:3000/courses,6875,0,1
+1573648392846,1305,HTTP Request,200,OK,Thread Group 1-72,text,true,,12103,126,100,100,http://localhost:3000/courses,1305,0,1
+1573648387709,6510,HTTP Request,200,OK,Thread Group 1-36,text,true,,12103,126,100,100,http://localhost:3000/courses,6510,0,1
+1573648384065,10222,HTTP Request,200,OK,Thread Group 1-58,text,true,,12103,126,100,100,http://localhost:3000/courses,10222,0,1
+1573648383840,10511,HTTP Request,200,OK,Thread Group 1-38,text,true,,12103,126,100,100,http://localhost:3000/courses,10511,0,0
+1573648379789,14675,HTTP Request,200,OK,Thread Group 1-68,text,true,,12103,126,100,100,http://localhost:3000/courses,14675,0,1
+1573648380087,14570,HTTP Request,200,OK,Thread Group 1-98,text,true,,12103,126,100,100,http://localhost:3000/courses,14570,0,1
+1573648393311,1470,HTTP Request,200,OK,Thread Group 1-31,text,true,,12103,126,100,100,http://localhost:3000/courses,1470,0,0
+1573648389872,4986,HTTP Request,200,OK,Thread Group 1-95,text,true,,12103,126,100,100,http://localhost:3000/courses,4985,0,0
+1573648387632,7282,HTTP Request,200,OK,Thread Group 1-28,text,true,,12103,126,100,100,http://localhost:3000/courses,7282,0,1
+1573648388721,6305,HTTP Request,200,OK,Thread Group 1-99,text,true,,12103,126,100,100,http://localhost:3000/courses,6305,0,1
+1573648390700,4558,HTTP Request,200,OK,Thread Group 1-8,text,true,,12103,126,100,100,http://localhost:3000/courses,4558,0,1
+1573648390326,5000,HTTP Request,200,OK,Thread Group 1-48,text,true,,12103,126,100,100,http://localhost:3000/courses,5000,0,1
+1573648386337,9054,HTTP Request,200,OK,Thread Group 1-4,text,true,,12103,126,100,100,http://localhost:3000/courses,9054,0,0
+1573648389814,5648,HTTP Request,200,OK,Thread Group 1-86,text,true,,12103,126,100,100,http://localhost:3000/courses,5648,0,1
+1573648390208,5331,HTTP Request,200,OK,Thread Group 1-79,text,true,,12103,126,100,100,http://localhost:3000/courses,5331,0,1
+1573648386826,8837,HTTP Request,200,OK,Thread Group 1-25,text,true,,12103,126,100,100,http://localhost:3000/courses,8837,0,1
+1573648386425,9314,HTTP Request,200,OK,Thread Group 1-11,text,true,,12103,126,100,100,http://localhost:3000/courses,9314,0,1
+1573648389604,6195,HTTP Request,200,OK,Thread Group 1-85,text,true,,12103,126,100,100,http://localhost:3000/courses,6195,0,1
+1573648389409,6445,HTTP Request,200,OK,Thread Group 1-75,text,true,,12103,126,100,100,http://localhost:3000/courses,6445,0,0
+1573648387171,8736,HTTP Request,200,OK,Thread Group 1-33,text,true,,12103,126,100,100,http://localhost:3000/courses,8736,0,1
+1573648387344,8620,HTTP Request,200,OK,Thread Group 1-19,text,true,,12103,126,100,100,http://localhost:3000/courses,8620,0,1
+1573648389750,6295,HTTP Request,200,OK,Thread Group 1-16,text,true,,12103,126,100,100,http://localhost:3000/courses,6295,0,1
+1573648390645,5523,HTTP Request,200,OK,Thread Group 1-51,text,true,,12103,126,100,100,http://localhost:3000/courses,5523,0,0
+1573648390475,5780,HTTP Request,200,OK,Thread Group 1-6,text,true,,12103,126,100,100,http://localhost:3000/courses,5780,0,1
+1573648387235,9072,HTTP Request,200,OK,Thread Group 1-39,text,true,,12103,126,100,100,http://localhost:3000/courses,9071,0,1
+1573648384198,12188,HTTP Request,200,OK,Thread Group 1-78,text,true,,12103,126,100,100,http://localhost:3000/courses,12188,0,0
+1573648384608,11832,HTTP Request,200,OK,Thread Group 1-93,text,true,,12103,126,100,100,http://localhost:3000/courses,11832,0,1
+1573648390593,5957,HTTP Request,200,OK,Thread Group 1-23,text,true,,12103,126,100,100,http://localhost:3000/courses,5957,0,1
+1573648384443,12165,HTTP Request,200,OK,Thread Group 1-73,text,true,,12103,126,100,100,http://localhost:3000/courses,12165,0,0
+1573648386890,9797,HTTP Request,200,OK,Thread Group 1-18,text,true,,12103,126,100,100,http://localhost:3000/courses,9797,0,1
+1573648394656,2090,HTTP Request,200,OK,Thread Group 1-98,text,true,,12103,126,100,100,http://localhost:3000/courses,2090,0,1
+1573648391833,4968,HTTP Request,200,OK,Thread Group 1-90,text,true,,12103,126,100,100,http://localhost:3000/courses,4968,0,0
+1573648388139,8815,HTTP Request,200,OK,Thread Group 1-59,text,true,,12103,126,100,100,http://localhost:3000/courses,8815,0,1
+1573648384669,12351,HTTP Request,200,OK,Thread Group 1-81,text,true,,12103,126,100,100,http://localhost:3000/courses,12351,0,1
+1573648388403,8696,HTTP Request,200,OK,Thread Group 1-44,text,true,,12103,126,100,100,http://localhost:3000/courses,8696,0,0
+1573648385030,12121,HTTP Request,200,OK,Thread Group 1-3,text,true,,12103,126,100,100,http://localhost:3000/courses,12121,0,0
+1573648388889,8316,HTTP Request,200,OK,Thread Group 1-92,text,true,,12103,126,100,100,http://localhost:3000/courses,8316,0,0
+1573648388548,8743,HTTP Request,200,OK,Thread Group 1-66,text,true,,12103,126,100,100,http://localhost:3000/courses,8743,0,1
+1573648387815,9531,HTTP Request,200,OK,Thread Group 1-56,text,true,,12103,126,100,100,http://localhost:3000/courses,9531,0,0
+1573648389239,8158,HTTP Request,200,OK,Thread Group 1-70,text,true,,12103,126,100,100,http://localhost:3000/courses,8158,0,0
+1573648385093,12382,HTTP Request,200,OK,Thread Group 1-76,text,true,,12103,126,100,100,http://localhost:3000/courses,12382,0,1
+1573648391900,5631,HTTP Request,200,OK,Thread Group 1-71,text,true,,12103,126,100,100,http://localhost:3000/courses,5631,0,1
+1573648392584,5000,HTTP Request,200,OK,Thread Group 1-53,text,true,,12103,126,100,100,http://localhost:3000/courses,5000,0,0
+1573648392346,5291,HTTP Request,200,OK,Thread Group 1-100,text,true,,12103,126,100,100,http://localhost:3000/courses,5290,0,0
+1573648388779,8979,HTTP Request,200,OK,Thread Group 1-87,text,true,,12103,126,100,100,http://localhost:3000/courses,8979,0,1
+1573648389495,8337,HTTP Request,200,OK,Thread Group 1-74,text,true,,12103,126,100,100,http://localhost:3000/courses,8337,0,0
+1573648388609,9278,HTTP Request,200,OK,Thread Group 1-55,text,true,,12103,126,100,100,http://localhost:3000/courses,9278,0,1
+1573648389147,8887,HTTP Request,200,OK,Thread Group 1-57,text,true,,12103,126,100,100,http://localhost:3000/courses,8887,0,0
+1573648386508,11586,HTTP Request,200,OK,Thread Group 1-9,text,true,,12103,126,100,100,http://localhost:3000/courses,11586,0,0
+1573648389551,8621,HTTP Request,200,OK,Thread Group 1-61,text,true,,12103,126,100,100,http://localhost:3000/courses,8621,0,1
+1573648389659,8580,HTTP Request,200,OK,Thread Group 1-77,text,true,,12103,126,100,100,http://localhost:3000/courses,8580,0,1
+1573648393450,4847,HTTP Request,200,OK,Thread Group 1-69,text,true,,12103,126,100,100,http://localhost:3000/courses,4847,0,1
+1573648395964,2442,HTTP Request,200,OK,Thread Group 1-19,text,true,,12103,126,100,100,http://localhost:3000/courses,2442,0,1
+1573648390861,7648,HTTP Request,200,OK,Thread Group 1-40,text,true,,12103,126,100,100,http://localhost:3000/courses,7648,0,1
+1573648390412,8150,HTTP Request,200,OK,Thread Group 1-84,text,true,,12103,126,100,100,http://localhost:3000/courses,8150,0,1
+1573648389925,8705,HTTP Request,200,OK,Thread Group 1-21,text,true,,12103,126,100,100,http://localhost:3000/courses,8705,0,0
+1573648390088,8596,HTTP Request,200,OK,Thread Group 1-13,text,true,,12103,126,100,100,http://localhost:3000/courses,8596,0,1
+1573648387290,11465,HTTP Request,200,OK,Thread Group 1-34,text,true,,12103,126,100,100,http://localhost:3000/courses,11465,0,1
+1573648393980,4847,HTTP Request,200,OK,Thread Group 1-26,text,true,,12103,126,100,100,http://localhost:3000/courses,4847,0,0
+1573648393801,5078,HTTP Request,200,OK,Thread Group 1-47,text,true,,12103,126,100,100,http://localhost:3000/courses,5078,0,0
+1573648387481,11454,HTTP Request,200,OK,Thread Group 1-41,text,true,,12103,126,100,100,http://localhost:3000/courses,11454,0,0
+1573648393593,5398,HTTP Request,200,OK,Thread Group 1-2,text,true,,12103,126,100,100,http://localhost:3000/courses,5398,0,0
+1573648390785,8312,HTTP Request,200,OK,Thread Group 1-30,text,true,,12103,126,100,100,http://localhost:3000/courses,8312,0,1
+1573648394463,4746,HTTP Request,200,OK,Thread Group 1-68,text,true,,12103,126,100,100,http://localhost:3000/courses,4746,0,0
+1573648390945,8402,HTTP Request,200,OK,Thread Group 1-42,text,true,,12103,126,100,100,http://localhost:3000/courses,8401,0,0
+1573648391011,8391,HTTP Request,200,OK,Thread Group 1-52,text,true,,12103,126,100,100,http://localhost:3000/courses,8391,0,1
+1573648397290,2196,HTTP Request,200,OK,Thread Group 1-66,text,true,,12103,126,100,100,http://localhost:3000/courses,2196,0,0
+1573648391474,8073,HTTP Request,200,OK,Thread Group 1-43,text,true,,12103,126,100,100,http://localhost:3000/courses,8072,0,0
+1573648391301,8303,HTTP Request,200,OK,Thread Group 1-37,text,true,,12103,126,100,100,http://localhost:3000/courses,8303,0,0
+1573648391161,8496,HTTP Request,200,OK,Thread Group 1-7,text,true,,12103,126,100,100,http://localhost:3000/courses,8496,0,1
+1573648386742,12967,HTTP Request,200,OK,Thread Group 1-17,text,true,,12103,126,100,100,http://localhost:3000/courses,12967,0,1
+1573648391245,8546,HTTP Request,200,OK,Thread Group 1-60,text,true,,12103,126,100,100,http://localhost:3000/courses,8546,0,1
+1573648397636,2237,HTTP Request,200,OK,Thread Group 1-100,text,true,,12103,126,100,100,http://localhost:3000/courses,2237,0,0
+1573648391690,8310,HTTP Request,200,OK,Thread Group 1-62,text,true,,12103,126,100,100,http://localhost:3000/courses,8310,0,0
+1573648388071,12010,HTTP Request,200,OK,Thread Group 1-67,text,true,,12103,126,100,100,http://localhost:3000/courses,12010,0,1
+1573648387881,12260,HTTP Request,200,OK,Thread Group 1-54,text,true,,12103,126,100,100,http://localhost:3000/courses,12260,0,1
+1573648394857,5360,HTTP Request,200,OK,Thread Group 1-95,text,true,,12103,126,100,100,http://localhost:3000/courses,5360,0,0
+1573648395025,5274,HTTP Request,200,OK,Thread Group 1-99,text,true,,12103,126,100,100,http://localhost:3000/courses,5274,0,0
+1573648388834,11523,HTTP Request,200,OK,Thread Group 1-94,text,true,,12103,126,100,100,http://localhost:3000/courses,11523,0,1
+1573648392111,8299,HTTP Request,200,OK,Thread Group 1-1,text,true,,12103,126,100,100,http://localhost:3000/courses,8299,0,0
+1573648394914,5552,HTTP Request,200,OK,Thread Group 1-28,text,true,,12103,126,100,100,http://localhost:3000/courses,5552,0,1
+1573648388480,12045,HTTP Request,200,OK,Thread Group 1-63,text,true,,12103,126,100,100,http://localhost:3000/courses,12045,0,0
+1573648388282,12309,HTTP Request,200,OK,Thread Group 1-45,text,true,,12103,126,100,100,http://localhost:3000/courses,12309,0,0
+1573648389292,11371,HTTP Request,200,OK,Thread Group 1-24,text,true,,12103,126,100,100,http://localhost:3000/courses,11371,0,0
+1573648388664,12056,HTTP Request,200,OK,Thread Group 1-97,text,true,,12103,126,100,100,http://localhost:3000/courses,12056,0,1
+1573648392266,8529,HTTP Request,200,OK,Thread Group 1-88,text,true,,12103,126,100,100,http://localhost:3000/courses,8529,0,0
+1573648393047,7927,HTTP Request,200,OK,Thread Group 1-80,text,true,,12103,126,100,100,http://localhost:3000/courses,7927,0,0
+1573648395257,5791,HTTP Request,200,OK,Thread Group 1-8,text,true,,12103,126,100,100,http://localhost:3000/courses,5791,0,0
+1573648392511,8593,HTTP Request,200,OK,Thread Group 1-89,text,true,,12103,126,100,100,http://localhost:3000/courses,8593,0,1
+1573648392457,8702,HTTP Request,200,OK,Thread Group 1-96,text,true,,12103,126,100,100,http://localhost:3000/courses,8702,0,1
+1573648395325,5886,HTTP Request,200,OK,Thread Group 1-48,text,true,,12103,126,100,100,http://localhost:3000/courses,5886,0,0
+1573648389981,11324,HTTP Request,200,OK,Thread Group 1-82,text,true,,12103,126,100,100,http://localhost:3000/courses,11324,0,0
+1573648398992,2390,HTTP Request,200,OK,Thread Group 1-2,text,true,,12103,126,100,100,http://localhost:3000/courses,2390,0,0
+1573648392980,8458,HTTP Request,200,OK,Thread Group 1-35,text,true,,12103,126,100,100,http://localhost:3000/courses,8458,0,1
+1573648390142,11369,HTTP Request,200,OK,Thread Group 1-20,text,true,,12103,126,100,100,http://localhost:3000/courses,11369,0,1
+1573648390534,11151,HTTP Request,200,OK,Thread Group 1-27,text,true,,12103,126,100,100,http://localhost:3000/courses,11151,0,0
+1573648393858,7903,HTTP Request,200,OK,Thread Group 1-49,text,true,,12103,126,100,100,http://localhost:3000/courses,7903,0,1
+1573648393726,8098,HTTP Request,200,OK,Thread Group 1-22,text,true,,12103,126,100,100,http://localhost:3000/courses,8098,0,0
+1573648396549,5360,HTTP Request,200,OK,Thread Group 1-23,text,true,,12103,126,100,100,http://localhost:3000/courses,5360,0,1
+1573648393663,8321,HTTP Request,200,OK,Thread Group 1-91,text,true,,12103,126,100,100,http://localhost:3000/courses,8321,0,0
+1573648396608,5438,HTTP Request,200,OK,Thread Group 1-73,text,true,,12103,126,100,100,http://localhost:3000/courses,5438,0,1
+1573648394151,7955,HTTP Request,200,OK,Thread Group 1-72,text,true,,12103,126,100,100,http://localhost:3000/courses,7955,0,0
+1573648396386,5781,HTTP Request,200,OK,Thread Group 1-78,text,true,,12103,126,100,100,http://localhost:3000/courses,5781,0,1
+1573648396800,5448,HTTP Request,200,OK,Thread Group 1-90,text,true,,12103,126,100,100,http://localhost:3000/courses,5448,0,1
+1573648391104,11224,HTTP Request,200,OK,Thread Group 1-46,text,true,,12103,126,100,100,http://localhost:3000/courses,11224,0,1
+1573648394219,8183,HTTP Request,200,OK,Thread Group 1-36,text,true,,12103,126,100,100,http://localhost:3000/courses,8183,0,1
+1573648394352,8148,HTTP Request,200,OK,Thread Group 1-38,text,true,,12103,126,100,100,http://localhost:3000/courses,8148,0,0
+1573648391355,11212,HTTP Request,200,OK,Thread Group 1-64,text,true,,12103,126,100,100,http://localhost:3000/courses,11212,0,1
+1573648394288,8336,HTTP Request,200,OK,Thread Group 1-58,text,true,,12103,126,100,100,http://localhost:3000/courses,8336,0,0
+1573648397530,5183,HTTP Request,200,OK,Thread Group 1-71,text,true,,12103,126,100,100,http://localhost:3000/courses,5183,0,1
+1573648397583,5198,HTTP Request,200,OK,Thread Group 1-53,text,true,,12103,126,100,100,http://localhost:3000/courses,5198,0,1
+1573648400299,2538,HTTP Request,200,OK,Thread Group 1-99,text,true,,12103,126,100,100,http://localhost:3000/courses,2538,0,1
+1573648391766,11200,HTTP Request,200,OK,Thread Group 1-65,text,true,,12103,126,100,100,http://localhost:3000/courses,11200,0,0
+1573648397346,5705,HTTP Request,200,OK,Thread Group 1-56,text,true,,12103,126,100,100,http://localhost:3000/courses,5705,0,0
+1573648397831,5289,HTTP Request,200,OK,Thread Group 1-74,text,true,,12103,126,100,100,http://localhost:3000/courses,5289,0,0
+1573648397757,5425,HTTP Request,200,OK,Thread Group 1-87,text,true,,12103,126,100,100,http://localhost:3000/courses,5425,0,0
+1573648387956,15371,HTTP Request,200,OK,Thread Group 1-32,text,true,,12103,126,100,100,http://localhost:3000/courses,15371,0,1
+1573648401158,2239,HTTP Request,200,OK,Thread Group 1-96,text,true,,12103,126,100,100,http://localhost:3000/courses,2239,0,0
+1573648389085,14375,HTTP Request,200,OK,Thread Group 1-50,text,true,,12103,126,100,100,http://localhost:3000/courses,14375,0,0
+1573648398033,5482,HTTP Request,200,OK,Thread Group 1-57,text,true,,12103,126,100,100,http://localhost:3000/courses,5482,0,1
+1573648398297,5282,HTTP Request,200,OK,Thread Group 1-69,text,true,,12103,126,100,100,http://localhost:3000/courses,5282,0,0
+1573648395392,8266,HTTP Request,200,OK,Thread Group 1-4,text,true,,12103,126,100,100,http://localhost:3000/courses,8266,0,0
+1573648395461,8272,HTTP Request,200,OK,Thread Group 1-86,text,true,,12103,126,100,100,http://localhost:3000/courses,8272,0,1
+1573648392700,11088,HTTP Request,200,OK,Thread Group 1-12,text,true,,12103,126,100,100,http://localhost:3000/courses,11087,0,1
+1573648398561,5297,HTTP Request,200,OK,Thread Group 1-84,text,true,,12103,126,100,100,http://localhost:3000/courses,5297,0,0
+1573648398508,5405,HTTP Request,200,OK,Thread Group 1-40,text,true,,12103,126,100,100,http://localhost:3000/courses,5405,0,1
+1573648395853,8212,HTTP Request,200,OK,Thread Group 1-75,text,true,,12103,126,100,100,http://localhost:3000/courses,8212,0,1
+1573648395663,8478,HTTP Request,200,OK,Thread Group 1-25,text,true,,12103,126,100,100,http://localhost:3000/courses,8478,0,1
+1573648398629,5569,HTTP Request,200,OK,Thread Group 1-21,text,true,,12103,126,100,100,http://localhost:3000/courses,5569,0,1
+1573648395538,8720,HTTP Request,200,OK,Thread Group 1-79,text,true,,12103,126,100,100,http://localhost:3000/courses,8720,0,1
+1573648398935,5384,HTTP Request,200,OK,Thread Group 1-41,text,true,,12103,126,100,100,http://localhost:3000/courses,5384,0,1
+1573648392768,11630,HTTP Request,200,OK,Thread Group 1-10,text,true,,12103,126,100,100,http://localhost:3000/courses,11630,0,1
+1573648396045,8430,HTTP Request,200,OK,Thread Group 1-16,text,true,,12103,126,100,100,http://localhost:3000/courses,8430,0,0
+1573648395740,8789,HTTP Request,200,OK,Thread Group 1-11,text,true,,12103,126,100,100,http://localhost:3000/courses,8789,0,0
+1573648395908,8679,HTTP Request,200,OK,Thread Group 1-33,text,true,,12103,126,100,100,http://localhost:3000/courses,8679,0,0
+1573648399209,5434,HTTP Request,200,OK,Thread Group 1-68,text,true,,12103,126,100,100,http://localhost:3000/courses,5434,0,1
+1573648395798,8897,HTTP Request,200,OK,Thread Group 1-85,text,true,,12103,126,100,100,http://localhost:3000/courses,8897,0,0
+1573648396167,8671,HTTP Request,200,OK,Thread Group 1-51,text,true,,12103,126,100,100,http://localhost:3000/courses,8671,0,1
+1573648396254,8662,HTTP Request,200,OK,Thread Group 1-6,text,true,,12103,126,100,100,http://localhost:3000/courses,8662,0,1
+1573648393253,11720,HTTP Request,200,OK,Thread Group 1-83,text,true,,12103,126,100,100,http://localhost:3000/courses,11720,0,0
+1573648399657,5394,HTTP Request,200,OK,Thread Group 1-7,text,true,,12103,126,100,100,http://localhost:3000/courses,5394,0,0
+1573648396746,8395,HTTP Request,200,OK,Thread Group 1-98,text,true,,12103,126,100,100,http://localhost:3000/courses,8395,0,0
+1573648391409,13880,HTTP Request,200,OK,Thread Group 1-5,text,true,,12103,126,100,100,http://localhost:3000/courses,13880,0,1
+1573648400141,5212,HTTP Request,200,OK,Thread Group 1-54,text,true,,12103,126,100,100,http://localhost:3000/courses,5212,0,1
+1573648397204,8277,HTTP Request,200,OK,Thread Group 1-92,text,true,,12103,126,100,100,http://localhost:3000/courses,8277,0,0
+1573648400217,5344,HTTP Request,200,OK,Thread Group 1-95,text,true,,12103,126,100,100,http://localhost:3000/courses,5344,0,1
+1573648397098,8517,HTTP Request,200,OK,Thread Group 1-44,text,true,,12103,126,100,100,http://localhost:3000/courses,8517,0,1
+1573648396955,8716,HTTP Request,200,OK,Thread Group 1-59,text,true,,12103,126,100,100,http://localhost:3000/courses,8716,0,0
+1573648397475,8267,HTTP Request,200,OK,Thread Group 1-76,text,true,,12103,126,100,100,http://localhost:3000/courses,8267,0,1
+1573648400356,5440,HTTP Request,200,OK,Thread Group 1-94,text,true,,12103,126,100,100,http://localhost:3000/courses,5440,0,1
+1573648397397,8489,HTTP Request,200,OK,Thread Group 1-70,text,true,,12103,126,100,100,http://localhost:3000/courses,8489,0,0
+1573648400592,5355,HTTP Request,200,OK,Thread Group 1-45,text,true,,12103,126,100,100,http://localhost:3000/courses,5355,0,0
+1573648400719,5292,HTTP Request,200,OK,Thread Group 1-97,text,true,,12103,126,100,100,http://localhost:3000/courses,5292,0,1
+1573648403660,2438,HTTP Request,200,OK,Thread Group 1-4,text,true,,12103,126,100,100,http://localhost:3000/courses,2438,0,0
+1573648397886,8327,HTTP Request,200,OK,Thread Group 1-55,text,true,,12103,126,100,100,http://localhost:3000/courses,8327,0,0
+1573648394781,11508,HTTP Request,200,OK,Thread Group 1-31,text,true,,12103,126,100,100,http://localhost:3000/courses,11508,0,0
+1573648401304,5056,HTTP Request,200,OK,Thread Group 1-82,text,true,,12103,126,100,100,http://localhost:3000/courses,5056,0,1
+1573648401048,5407,HTTP Request,200,OK,Thread Group 1-8,text,true,,12103,126,100,100,http://localhost:3000/courses,5407,0,1
+1573648401382,5153,HTTP Request,200,OK,Thread Group 1-2,text,true,,12103,126,100,100,http://localhost:3000/courses,5153,0,0
+1573648401510,5088,HTTP Request,200,OK,Thread Group 1-20,text,true,,12103,126,100,100,http://localhost:3000/courses,5088,0,1
+1573648398095,8577,HTTP Request,200,OK,Thread Group 1-9,text,true,,12103,126,100,100,http://localhost:3000/courses,8577,0,0
+1573648392401,14350,HTTP Request,200,OK,Thread Group 1-29,text,true,,12103,126,100,100,http://localhost:3000/courses,14350,0,1
+1573648401825,5001,HTTP Request,200,OK,Thread Group 1-22,text,true,,12103,126,100,100,http://localhost:3000/courses,5001,0,0
+1573648404918,1974,HTTP Request,200,OK,Thread Group 1-6,text,true,,12103,126,100,100,http://localhost:3000/courses,1973,0,0
+1573648398827,8211,HTTP Request,200,OK,Thread Group 1-26,text,true,,12103,126,100,100,http://localhost:3000/courses,8210,0,1
+1573648398756,8342,HTTP Request,200,OK,Thread Group 1-34,text,true,,12103,126,100,100,http://localhost:3000/courses,8342,0,0
+1573648393118,14051,HTTP Request,200,OK,Thread Group 1-14,text,true,,12103,126,100,100,http://localhost:3000/courses,14051,0,0
+1573648398880,8348,HTTP Request,200,OK,Thread Group 1-47,text,true,,12103,126,100,100,http://localhost:3000/courses,8348,0,0
+1573648393187,14110,HTTP Request,200,OK,Thread Group 1-15,text,true,,12103,126,100,100,http://localhost:3000/courses,14110,0,0
+1573648396441,10925,HTTP Request,200,OK,Thread Group 1-93,text,true,,12103,126,100,100,http://localhost:3000/courses,10925,0,0
+1573648399402,8019,HTTP Request,200,OK,Thread Group 1-52,text,true,,12103,126,100,100,http://localhost:3000/courses,8019,0,0
+1573648402714,4819,HTTP Request,200,OK,Thread Group 1-71,text,true,,12103,126,100,100,http://localhost:3000/courses,4819,0,0
+1573648402566,5037,HTTP Request,200,OK,Thread Group 1-64,text,true,,12103,126,100,100,http://localhost:3000/courses,5037,0,1
+1573648402624,5038,HTTP Request,200,OK,Thread Group 1-58,text,true,,12103,126,100,100,http://localhost:3000/courses,5038,0,1
+1573648399486,8306,HTTP Request,200,OK,Thread Group 1-66,text,true,,12103,126,100,100,http://localhost:3000/courses,8306,0,1
+1573648396307,11560,HTTP Request,200,OK,Thread Group 1-39,text,true,,12103,126,100,100,http://localhost:3000/courses,11560,0,0
+1573648406214,1781,HTTP Request,200,OK,Thread Group 1-55,text,true,,12103,126,100,100,http://localhost:3000/courses,1781,0,1
+1573648396690,11393,HTTP Request,200,OK,Thread Group 1-18,text,true,,12103,126,100,100,http://localhost:3000/courses,11393,0,1
+1573648399873,8263,HTTP Request,200,OK,Thread Group 1-100,text,true,,12103,126,100,100,http://localhost:3000/courses,8263,0,1
+1573648403051,5210,HTTP Request,200,OK,Thread Group 1-56,text,true,,12103,126,100,100,http://localhost:3000/courses,5210,0,1
+1573648400081,8246,HTTP Request,200,OK,Thread Group 1-67,text,true,,12103,126,100,100,http://localhost:3000/courses,8246,0,1
+1573648399999,8418,HTTP Request,200,OK,Thread Group 1-62,text,true,,12103,126,100,100,http://localhost:3000/courses,8418,0,1
+1573648400524,7972,HTTP Request,200,OK,Thread Group 1-63,text,true,,12103,126,100,100,http://localhost:3000/courses,7972,0,1
+1573648400409,8147,HTTP Request,200,OK,Thread Group 1-1,text,true,,12103,126,100,100,http://localhost:3000/courses,8147,0,1
+1573648400466,8155,HTTP Request,200,OK,Thread Group 1-28,text,true,,12103,126,100,100,http://localhost:3000/courses,8155,0,1
+1573648403734,5010,HTTP Request,200,OK,Thread Group 1-86,text,true,,12103,126,100,100,http://localhost:3000/courses,5010,0,1
+1573648400973,7971,HTTP Request,200,OK,Thread Group 1-80,text,true,,12103,126,100,100,http://localhost:3000/courses,7971,0,1
+1573648403859,5143,HTTP Request,200,OK,Thread Group 1-84,text,true,,12103,126,100,100,http://localhost:3000/courses,5143,0,1
+1573648401211,7854,HTTP Request,200,OK,Thread Group 1-48,text,true,,12103,126,100,100,http://localhost:3000/courses,7854,0,1
+1573648404142,5011,HTTP Request,200,OK,Thread Group 1-25,text,true,,12103,126,100,100,http://localhost:3000/courses,5011,0,1
+1573648398238,11112,HTTP Request,200,OK,Thread Group 1-77,text,true,,12103,126,100,100,http://localhost:3000/courses,11112,0,0
+1573648404973,4454,HTTP Request,200,OK,Thread Group 1-83,text,true,,12103,126,100,100,http://localhost:3000/courses,4454,0,1
+1573648398172,11326,HTTP Request,200,OK,Thread Group 1-61,text,true,,12103,126,100,100,http://localhost:3000/courses,11326,0,0
+1573648401437,8119,HTTP Request,200,OK,Thread Group 1-35,text,true,,12103,126,100,100,http://localhost:3000/courses,8119,0,0
+1573648398683,10930,HTTP Request,200,OK,Thread Group 1-13,text,true,,12103,126,100,100,http://localhost:3000/courses,10930,0,1
+1573648401684,7985,HTTP Request,200,OK,Thread Group 1-27,text,true,,12103,126,100,100,http://localhost:3000/courses,7985,0,1
+1573648399096,10815,HTTP Request,200,OK,Thread Group 1-30,text,true,,12103,126,100,100,http://localhost:3000/courses,10815,0,1
+1573648402106,7928,HTTP Request,200,OK,Thread Group 1-72,text,true,,12103,126,100,100,http://localhost:3000/courses,7928,0,1
+1573648402327,7781,HTTP Request,200,OK,Thread Group 1-46,text,true,,12103,126,100,100,http://localhost:3000/courses,7781,0,1
+1573648402248,7917,HTTP Request,200,OK,Thread Group 1-90,text,true,,12103,126,100,100,http://localhost:3000/courses,7917,0,1
+1573648399709,10582,HTTP Request,200,OK,Thread Group 1-17,text,true,,12103,126,100,100,http://localhost:3000/courses,10582,0,1
+1573648405482,4955,HTTP Request,200,OK,Thread Group 1-92,text,true,,12103,126,100,100,http://localhost:3000/courses,4955,0,1
+1573648399346,11149,HTTP Request,200,OK,Thread Group 1-42,text,true,,12103,126,100,100,http://localhost:3000/courses,11149,0,0
+1573648405798,4814,HTTP Request,200,OK,Thread Group 1-94,text,true,,12103,126,100,100,http://localhost:3000/courses,4814,0,0
+1573648399603,11084,HTTP Request,200,OK,Thread Group 1-37,text,true,,12103,126,100,100,http://localhost:3000/courses,11084,0,1
+1573648399546,11203,HTTP Request,200,OK,Thread Group 1-43,text,true,,12103,126,100,100,http://localhost:3000/courses,11202,0,1
+1573648405672,5141,HTTP Request,200,OK,Thread Group 1-59,text,true,,12103,126,100,100,http://localhost:3000/courses,5141,0,1
+1573648403182,7755,HTTP Request,200,OK,Thread Group 1-87,text,true,,12103,126,100,100,http://localhost:3000/courses,7755,0,1
+1573648399791,11220,HTTP Request,200,OK,Thread Group 1-60,text,true,,12103,126,100,100,http://localhost:3000/courses,11220,0,0
+1573648402965,8168,HTTP Request,200,OK,Thread Group 1-65,text,true,,12103,126,100,100,http://localhost:3000/courses,8168,0,1
+1573648406290,4917,HTTP Request,200,OK,Thread Group 1-31,text,true,,12103,126,100,100,http://localhost:3000/courses,4917,0,1
+1573648397151,14112,HTTP Request,200,OK,Thread Group 1-3,text,true,,12103,126,100,100,http://localhost:3000/courses,14112,0,1
+1573648403460,7873,HTTP Request,200,OK,Thread Group 1-50,text,true,,12103,126,100,100,http://localhost:3000/courses,7873,0,1
+1573648397020,14372,HTTP Request,200,OK,Thread Group 1-81,text,true,,12103,126,100,100,http://localhost:3000/courses,14372,0,0
+1573648406599,4853,HTTP Request,200,OK,Thread Group 1-20,text,true,,12103,126,100,100,http://localhost:3000/courses,4853,0,1
+1573648403580,8010,HTTP Request,200,OK,Thread Group 1-69,text,true,,12103,126,100,100,http://localhost:3000/courses,8010,0,0
+1573648403914,7843,HTTP Request,200,OK,Thread Group 1-40,text,true,,12103,126,100,100,http://localhost:3000/courses,7843,0,1
+1573648406827,5013,HTTP Request,200,OK,Thread Group 1-22,text,true,,12103,126,100,100,http://localhost:3000/courses,5013,0,0
+1573648400794,11121,HTTP Request,200,OK,Thread Group 1-88,text,true,,12103,126,100,100,http://localhost:3000/courses,11121,0,1
+1573648407039,4937,HTTP Request,200,OK,Thread Group 1-26,text,true,,12103,126,100,100,http://localhost:3000/courses,4937,0,0
+1573648404066,8040,HTTP Request,200,OK,Thread Group 1-75,text,true,,12103,126,100,100,http://localhost:3000/courses,8040,0,1
+1573648400662,11523,HTTP Request,200,OK,Thread Group 1-24,text,true,,12103,126,100,100,http://localhost:3000/courses,11523,0,0
+1573648398406,13861,HTTP Request,200,OK,Thread Group 1-19,text,true,,12103,126,100,100,http://localhost:3000/courses,13861,0,1
+1573648401103,11219,HTTP Request,200,OK,Thread Group 1-89,text,true,,12103,126,100,100,http://localhost:3000/courses,11219,0,1
+1573648407423,4978,HTTP Request,200,OK,Thread Group 1-52,text,true,,12103,126,100,100,http://localhost:3000/courses,4978,0,0
+1573648404645,7816,HTTP Request,200,OK,Thread Group 1-68,text,true,,12103,126,100,100,http://localhost:3000/courses,7816,0,0
+1573648404259,8270,HTTP Request,200,OK,Thread Group 1-79,text,true,,12103,126,100,100,http://localhost:3000/courses,8270,0,0
+1573648404530,8056,HTTP Request,200,OK,Thread Group 1-11,text,true,,12103,126,100,100,http://localhost:3000/courses,8056,0,1
+1573648404320,8326,HTTP Request,200,OK,Thread Group 1-41,text,true,,12103,126,100,100,http://localhost:3000/courses,8326,0,1
+1573648404399,8312,HTTP Request,200,OK,Thread Group 1-10,text,true,,12103,126,100,100,http://localhost:3000/courses,8312,0,0
+1573648407298,5471,HTTP Request,200,OK,Thread Group 1-15,text,true,,12103,126,100,100,http://localhost:3000/courses,5471,0,0
+1573648404476,8379,HTTP Request,200,OK,Thread Group 1-16,text,true,,12103,126,100,100,http://localhost:3000/courses,8379,0,0
+1573648407868,5045,HTTP Request,200,OK,Thread Group 1-39,text,true,,12103,126,100,100,http://localhost:3000/courses,5045,0,1
+1573648404199,8786,HTTP Request,200,OK,Thread Group 1-21,text,true,,12103,126,100,100,http://localhost:3000/courses,8786,0,1
+1573648407604,5440,HTTP Request,200,OK,Thread Group 1-64,text,true,,12103,126,100,100,http://localhost:3000/courses,5440,0,1
+1573648401761,11443,HTTP Request,200,OK,Thread Group 1-49,text,true,,12103,126,100,100,http://localhost:3000/courses,11443,0,0
+1573648405289,8003,HTTP Request,200,OK,Thread Group 1-5,text,true,,12103,126,100,100,http://localhost:3000/courses,8003,0,1
+1573648402046,11305,HTTP Request,200,OK,Thread Group 1-73,text,true,,12103,126,100,100,http://localhost:3000/courses,11305,0,1
+1573648408556,4850,HTTP Request,200,OK,Thread Group 1-1,text,true,,12103,126,100,100,http://localhost:3000/courses,4850,0,0
+1573648402167,11320,HTTP Request,200,OK,Thread Group 1-78,text,true,,12103,126,100,100,http://localhost:3000/courses,11320,0,0
+1573648404839,8706,HTTP Request,200,OK,Thread Group 1-51,text,true,,12103,126,100,100,http://localhost:3000/courses,8706,0,1
+1573648402500,11098,HTTP Request,200,OK,Thread Group 1-38,text,true,,12103,126,100,100,http://localhost:3000/courses,11098,0,1
+1573648402402,11250,HTTP Request,200,OK,Thread Group 1-36,text,true,,12103,126,100,100,http://localhost:3000/courses,11250,0,1
+1573648408138,5597,HTTP Request,200,OK,Thread Group 1-100,text,true,,12103,126,100,100,http://localhost:3000/courses,5597,0,0
+1573648405354,8437,HTTP Request,200,OK,Thread Group 1-54,text,true,,12103,126,100,100,http://localhost:3000/courses,8437,0,1
+1573648406012,7894,HTTP Request,200,OK,Thread Group 1-97,text,true,,12103,126,100,100,http://localhost:3000/courses,7894,0,1
+1573648405743,8234,HTTP Request,200,OK,Thread Group 1-76,text,true,,12103,126,100,100,http://localhost:3000/courses,8234,0,0
+1573648402837,11192,HTTP Request,200,OK,Thread Group 1-99,text,true,,12103,126,100,100,http://localhost:3000/courses,11192,0,1
+1573648405887,8202,HTTP Request,200,OK,Thread Group 1-70,text,true,,12103,126,100,100,http://localhost:3000/courses,8201,0,1
+1573648406098,8049,HTTP Request,200,OK,Thread Group 1-4,text,true,,12103,126,100,100,http://localhost:3000/courses,8049,0,0
+1573648403120,11081,HTTP Request,200,OK,Thread Group 1-74,text,true,,12103,126,100,100,http://localhost:3000/courses,11081,0,0
+1573648411392,2903,HTTP Request,200,OK,Thread Group 1-81,text,true,,12103,126,100,100,http://localhost:3000/courses,2903,0,1
+1573648408622,5744,HTTP Request,200,OK,Thread Group 1-28,text,true,,12103,126,100,100,http://localhost:3000/courses,5744,0,0
+1573648402781,11637,HTTP Request,200,OK,Thread Group 1-53,text,true,,12103,126,100,100,http://localhost:3000/courses,11637,0,1
+1573648406456,8060,HTTP Request,200,OK,Thread Group 1-8,text,true,,12103,126,100,100,http://localhost:3000/courses,8060,0,1
+1573648403516,11079,HTTP Request,200,OK,Thread Group 1-57,text,true,,12103,126,100,100,http://localhost:3000/courses,11079,0,0
+1573648406536,8117,HTTP Request,200,OK,Thread Group 1-2,text,true,,12103,126,100,100,http://localhost:3000/courses,8117,0,1
+1573648403398,11313,HTTP Request,200,OK,Thread Group 1-96,text,true,,12103,126,100,100,http://localhost:3000/courses,11313,0,1
+1573648409350,5438,HTTP Request,200,OK,Thread Group 1-77,text,true,,12103,126,100,100,http://localhost:3000/courses,5438,0,1
+1573648408743,6114,HTTP Request,200,OK,Thread Group 1-86,text,true,,12103,126,100,100,http://localhost:3000/courses,6114,0,1
+1573648409426,5496,HTTP Request,200,OK,Thread Group 1-83,text,true,,12103,126,100,100,http://localhost:3000/courses,5496,0,0
+1573648409911,5090,HTTP Request,200,OK,Thread Group 1-30,text,true,,12103,126,100,100,http://localhost:3000/courses,5090,0,1
+1573648410034,5021,HTTP Request,200,OK,Thread Group 1-72,text,true,,12103,126,100,100,http://localhost:3000/courses,5021,0,1
+1573648412185,2945,HTTP Request,200,OK,Thread Group 1-24,text,true,,12103,126,100,100,http://localhost:3000/courses,2944,0,1
+1573648403788,11412,HTTP Request,200,OK,Thread Group 1-12,text,true,,12103,126,100,100,http://localhost:3000/courses,11412,0,0
+1573648409613,5648,HTTP Request,200,OK,Thread Group 1-13,text,true,,12103,126,100,100,http://localhost:3000/courses,5648,0,1
+1573648407367,7966,HTTP Request,200,OK,Thread Group 1-93,text,true,,12103,126,100,100,http://localhost:3000/courses,7966,0,1
+1573648407663,7740,HTTP Request,200,OK,Thread Group 1-58,text,true,,12103,126,100,100,http://localhost:3000/courses,7740,0,1
+1573648410436,5041,HTTP Request,200,OK,Thread Group 1-92,text,true,,12103,126,100,100,http://localhost:3000/courses,5041,0,0
+1573648404697,10839,HTTP Request,200,OK,Thread Group 1-85,text,true,,12103,126,100,100,http://localhost:3000/courses,10839,0,0
+1573648407793,7960,HTTP Request,200,OK,Thread Group 1-66,text,true,,12103,126,100,100,http://localhost:3000/courses,7960,0,1
+1573648405143,10682,HTTP Request,200,OK,Thread Group 1-98,text,true,,12103,126,100,100,http://localhost:3000/courses,10682,0,0
+1573648410611,5285,HTTP Request,200,OK,Thread Group 1-94,text,true,,12103,126,100,100,http://localhost:3000/courses,5285,0,1
+1573648411452,4570,HTTP Request,200,OK,Thread Group 1-20,text,true,,12103,126,100,100,http://localhost:3000/courses,4570,0,0
+1573648411206,4878,HTTP Request,200,OK,Thread Group 1-31,text,true,,12103,126,100,100,http://localhost:3000/courses,4878,0,1
+1573648411263,4887,HTTP Request,200,OK,Thread Group 1-3,text,true,,12103,126,100,100,http://localhost:3000/courses,4887,0,1
+1573648407996,8211,HTTP Request,200,OK,Thread Group 1-55,text,true,,12103,126,100,100,http://localhost:3000/courses,8211,0,0
+1573648401910,14391,HTTP Request,200,OK,Thread Group 1-23,text,true,,12103,126,100,100,http://localhost:3000/courses,14391,0,0
+1573648405052,11324,HTTP Request,200,OK,Thread Group 1-7,text,true,,12103,126,100,100,http://localhost:3000/courses,11324,0,1
+1573648411589,4841,HTTP Request,200,OK,Thread Group 1-69,text,true,,12103,126,100,100,http://localhost:3000/courses,4841,0,1
+1573648410812,5699,HTTP Request,200,OK,Thread Group 1-59,text,true,,12103,126,100,100,http://localhost:3000/courses,5699,0,1
+1573648408328,8276,HTTP Request,200,OK,Thread Group 1-67,text,true,,12103,126,100,100,http://localhost:3000/courses,8276,0,1
+1573648410749,5909,HTTP Request,200,OK,Thread Group 1-43,text,true,,12103,126,100,100,http://localhost:3000/courses,5909,0,0
+1573648401984,14726,HTTP Request,200,OK,Thread Group 1-91,text,true,,12103,126,100,100,http://localhost:3000/courses,14726,0,0
+1573648408084,8700,HTTP Request,200,OK,Thread Group 1-18,text,true,,12103,126,100,100,http://localhost:3000/courses,8700,0,1
+1573648408417,8507,HTTP Request,200,OK,Thread Group 1-62,text,true,,12103,126,100,100,http://localhost:3000/courses,8507,0,1
+1573648408262,8737,HTTP Request,200,OK,Thread Group 1-56,text,true,,12103,126,100,100,http://localhost:3000/courses,8737,0,0
+1573648405948,11171,HTTP Request,200,OK,Thread Group 1-45,text,true,,12103,126,100,100,http://localhost:3000/courses,11171,0,1
+1573648409001,8188,HTTP Request,200,OK,Thread Group 1-84,text,true,,12103,126,100,100,http://localhost:3000/courses,8188,0,1
+1573648405562,11688,HTTP Request,200,OK,Thread Group 1-95,text,true,,12103,126,100,100,http://localhost:3000/courses,11688,0,1
+1573648409152,8148,HTTP Request,200,OK,Thread Group 1-25,text,true,,12103,126,100,100,http://localhost:3000/courses,8148,0,1
+1573648406361,10994,HTTP Request,200,OK,Thread Group 1-82,text,true,,12103,126,100,100,http://localhost:3000/courses,10994,0,1
+1573648403327,14333,HTTP Request,200,OK,Thread Group 1-32,text,true,,12103,126,100,100,http://localhost:3000/courses,14333,0,1
+1573648412105,5626,HTTP Request,200,OK,Thread Group 1-75,text,true,,12103,126,100,100,http://localhost:3000/courses,5626,0,1
+1573648406892,10920,HTTP Request,200,OK,Thread Group 1-6,text,true,,12103,126,100,100,http://localhost:3000/courses,10920,0,0
+1573648409498,8380,HTTP Request,200,OK,Thread Group 1-61,text,true,,12103,126,100,100,http://localhost:3000/courses,8380,0,1
+1573648413043,4901,HTTP Request,200,OK,Thread Group 1-64,text,true,,12103,126,100,100,http://localhost:3000/courses,4901,0,1
+1573648406751,11277,HTTP Request,200,OK,Thread Group 1-29,text,true,,12103,126,100,100,http://localhost:3000/courses,11277,0,1
+1573648416150,1941,HTTP Request,200,OK,Thread Group 1-3,text,true,,12103,126,100,100,http://localhost:3000/courses,1941,0,1
+1573648412912,5300,HTTP Request,200,OK,Thread Group 1-39,text,true,,12103,126,100,100,http://localhost:3000/courses,5300,0,1
+1573648407099,11234,HTTP Request,200,OK,Thread Group 1-34,text,true,,12103,126,100,100,http://localhost:3000/courses,11234,0,1
+1573648410108,8299,HTTP Request,200,OK,Thread Group 1-46,text,true,,12103,126,100,100,http://localhost:3000/courses,8299,0,1
+1573648407534,10949,HTTP Request,200,OK,Thread Group 1-71,text,true,,12103,126,100,100,http://localhost:3000/courses,10949,0,1
+1573648410166,8378,HTTP Request,200,OK,Thread Group 1-90,text,true,,12103,126,100,100,http://localhost:3000/courses,8378,0,0
+1573648410292,8310,HTTP Request,200,OK,Thread Group 1-17,text,true,,12103,126,100,100,http://localhost:3000/courses,8310,0,0
+1573648416604,2050,HTTP Request,200,OK,Thread Group 1-67,text,true,,12103,126,100,100,http://localhost:3000/courses,2050,0,0
+1573648404588,14140,HTTP Request,200,OK,Thread Group 1-33,text,true,,12103,126,100,100,http://localhost:3000/courses,14140,0,0
+1573648413487,5307,HTTP Request,200,OK,Thread Group 1-78,text,true,,12103,126,100,100,http://localhost:3000/courses,5307,0,1
+1573648407169,11686,HTTP Request,200,OK,Thread Group 1-14,text,true,,12103,126,100,100,http://localhost:3000/courses,11686,0,1
+1573648413544,5365,HTTP Request,200,OK,Thread Group 1-51,text,true,,12103,126,100,100,http://localhost:3000/courses,5365,0,0
+1573648410687,8310,HTTP Request,200,OK,Thread Group 1-37,text,true,,12103,126,100,100,http://localhost:3000/courses,8310,0,1
+1573648414088,5031,HTTP Request,200,OK,Thread Group 1-70,text,true,,12103,126,100,100,http://localhost:3000/courses,5031,0,0
+1573648410937,8259,HTTP Request,200,OK,Thread Group 1-87,text,true,,12103,126,100,100,http://localhost:3000/courses,8259,0,1
+1573648413652,5603,HTTP Request,200,OK,Thread Group 1-36,text,true,,12103,126,100,100,http://localhost:3000/courses,5603,0,1
+1573648413905,5403,HTTP Request,200,OK,Thread Group 1-97,text,true,,12103,126,100,100,http://localhost:3000/courses,5403,0,1
+1573648408497,10925,HTTP Request,200,OK,Thread Group 1-63,text,true,,12103,126,100,100,http://localhost:3000/courses,10925,0,0
+1573648411011,8502,HTTP Request,200,OK,Thread Group 1-60,text,true,,12103,126,100,100,http://localhost:3000/courses,8502,0,1
+1573648411332,8275,HTTP Request,200,OK,Thread Group 1-50,text,true,,12103,126,100,100,http://localhost:3000/courses,8275,0,1
+1573648414295,5372,HTTP Request,200,OK,Thread Group 1-81,text,true,,12103,126,100,100,http://localhost:3000/courses,5372,0,1
+1573648415001,4735,HTTP Request,200,OK,Thread Group 1-30,text,true,,12103,126,100,100,http://localhost:3000/courses,4735,0,0
+1573648411916,7881,HTTP Request,200,OK,Thread Group 1-88,text,true,,12103,126,100,100,http://localhost:3000/courses,7881,0,0
+1573648414515,5351,HTTP Request,200,OK,Thread Group 1-8,text,true,,12103,126,100,100,http://localhost:3000/courses,5351,0,1
+1573648417661,2326,HTTP Request,200,OK,Thread Group 1-32,text,true,,12103,126,100,100,http://localhost:3000/courses,2326,0,0
+1573648411839,8208,HTTP Request,200,OK,Thread Group 1-22,text,true,,12103,126,100,100,http://localhost:3000/courses,8208,0,1
+1573648411756,8440,HTTP Request,200,OK,Thread Group 1-40,text,true,,12103,126,100,100,http://localhost:3000/courses,8440,0,1
+1573648414652,5649,HTTP Request,200,OK,Thread Group 1-2,text,true,,12103,126,100,100,http://localhost:3000/courses,5649,0,1
+1573648411975,8390,HTTP Request,200,OK,Thread Group 1-26,text,true,,12103,126,100,100,http://localhost:3000/courses,8390,0,0
+1573648405616,14843,HTTP Request,200,OK,Thread Group 1-44,text,true,,12103,126,100,100,http://localhost:3000/courses,14843,0,1
+1573648408944,11583,HTTP Request,200,OK,Thread Group 1-80,text,true,,12103,126,100,100,http://localhost:3000/courses,11583,0,0
+1573648409065,11528,HTTP Request,200,OK,Thread Group 1-48,text,true,,12103,126,100,100,http://localhost:3000/courses,11528,0,1
+1573648415402,5249,HTTP Request,200,OK,Thread Group 1-58,text,true,,12103,126,100,100,http://localhost:3000/courses,5249,0,1
+1573648406673,14061,HTTP Request,200,OK,Thread Group 1-9,text,true,,12103,126,100,100,http://localhost:3000/courses,14061,0,1
+1573648412322,8483,HTTP Request,200,OK,Thread Group 1-89,text,true,,12103,126,100,100,http://localhost:3000/courses,8483,0,1
+1573648415896,5018,HTTP Request,200,OK,Thread Group 1-94,text,true,,12103,126,100,100,http://localhost:3000/courses,5018,0,0
+1573648415752,5230,HTTP Request,200,OK,Thread Group 1-66,text,true,,12103,126,100,100,http://localhost:3000/courses,5230,0,1
+1573648412985,8056,HTTP Request,200,OK,Thread Group 1-21,text,true,,12103,126,100,100,http://localhost:3000/courses,8056,0,1
+1573648416084,5013,HTTP Request,200,OK,Thread Group 1-31,text,true,,12103,126,100,100,http://localhost:3000/courses,5013,0,1
+1573648412460,8767,HTTP Request,200,OK,Thread Group 1-68,text,true,,12103,126,100,100,http://localhost:3000/courses,8767,0,1
+1573648412400,8883,HTTP Request,200,OK,Thread Group 1-52,text,true,,12103,126,100,100,http://localhost:3000/courses,8883,0,1
+1573648418483,2854,HTTP Request,200,OK,Thread Group 1-71,text,true,,12103,126,100,100,http://localhost:3000/courses,2854,0,1
+1573648412710,8698,HTTP Request,200,OK,Thread Group 1-10,text,true,,12103,126,100,100,http://localhost:3000/courses,8698,0,0
+1573648416301,5170,HTTP Request,200,OK,Thread Group 1-23,text,true,,12103,126,100,100,http://localhost:3000/courses,5170,0,2
+1573648410496,11079,HTTP Request,200,OK,Thread Group 1-42,text,true,,12103,126,100,100,http://localhost:3000/courses,11079,0,0
+1573648416659,4989,HTTP Request,200,OK,Thread Group 1-43,text,true,,12103,126,100,100,http://localhost:3000/courses,4989,0,0
+1573648407229,14476,HTTP Request,200,OK,Thread Group 1-47,text,true,,12103,126,100,100,http://localhost:3000/courses,14476,0,1
+1573648413407,8425,HTTP Request,200,OK,Thread Group 1-1,text,true,,12103,126,100,100,http://localhost:3000/courses,8425,0,0
+1573648413351,8536,HTTP Request,200,OK,Thread Group 1-73,text,true,,12103,126,100,100,http://localhost:3000/courses,8536,0,1
+1573648416998,4949,HTTP Request,200,OK,Thread Group 1-56,text,true,,12103,126,100,100,http://localhost:3000/courses,4949,0,1
+1573648417189,4947,HTTP Request,200,OK,Thread Group 1-84,text,true,,12103,126,100,100,http://localhost:3000/courses,4947,0,1
+1573648414366,7895,HTTP Request,200,OK,Thread Group 1-28,text,true,,12103,126,100,100,http://localhost:3000/courses,7895,0,1
+1573648417118,5205,HTTP Request,200,OK,Thread Group 1-45,text,true,,12103,126,100,100,http://localhost:3000/courses,5205,0,1
+1573648417354,5024,HTTP Request,200,OK,Thread Group 1-82,text,true,,12103,126,100,100,http://localhost:3000/courses,5024,0,1
+1573648414146,8283,HTTP Request,200,OK,Thread Group 1-4,text,true,,12103,126,100,100,http://localhost:3000/courses,8283,0,1
+1573648411133,11359,HTTP Request,200,OK,Thread Group 1-65,text,true,,12103,126,100,100,http://localhost:3000/courses,11359,0,1
+1573648414922,7743,HTTP Request,200,OK,Thread Group 1-83,text,true,,12103,126,100,100,http://localhost:3000/courses,7742,0,1
+1573648415055,7673,HTTP Request,200,OK,Thread Group 1-72,text,true,,12103,126,100,100,http://localhost:3000/courses,7673,0,1
+1573648415130,7723,HTTP Request,200,OK,Thread Group 1-24,text,true,,12103,126,100,100,http://localhost:3000/courses,7723,0,0
+1573648418091,4862,HTTP Request,200,OK,Thread Group 1-3,text,true,,12103,126,100,100,http://localhost:3000/courses,4862,0,0
+1573648415261,7828,HTTP Request,200,OK,Thread Group 1-13,text,true,,12103,126,100,100,http://localhost:3000/courses,7828,0,1
+1573648414788,8474,HTTP Request,200,OK,Thread Group 1-77,text,true,,12103,126,100,100,http://localhost:3000/courses,8474,0,0
+1573648415535,7801,HTTP Request,200,OK,Thread Group 1-85,text,true,,12103,126,100,100,http://localhost:3000/courses,7801,0,1
+1573648421833,1582,HTTP Request,200,OK,Thread Group 1-1,text,true,,12103,126,100,100,http://localhost:3000/courses,1582,0,1
+1573648409669,13823,HTTP Request,200,OK,Thread Group 1-27,text,true,,12103,126,100,100,http://localhost:3000/courses,13823,0,1
+1573648409556,14019,HTTP Request,200,OK,Thread Group 1-35,text,true,,12103,126,100,100,http://localhost:3000/courses,14019,0,1
+1573648418796,4899,HTTP Request,200,OK,Thread Group 1-78,text,true,,12103,126,100,100,http://localhost:3000/courses,4899,0,0
+1573648418655,5179,HTTP Request,200,OK,Thread Group 1-67,text,true,,12103,126,100,100,http://localhost:3000/courses,5179,0,0
+1573648412854,11060,HTTP Request,200,OK,Thread Group 1-16,text,true,,12103,126,100,100,http://localhost:3000/courses,11060,0,1
+1573648412645,11392,HTTP Request,200,OK,Thread Group 1-41,text,true,,12103,126,100,100,http://localhost:3000/courses,11392,0,1
+1573648415824,8272,HTTP Request,200,OK,Thread Group 1-98,text,true,,12103,126,100,100,http://localhost:3000/courses,8272,0,0
+1573648413204,10972,HTTP Request,200,OK,Thread Group 1-49,text,true,,12103,126,100,100,http://localhost:3000/courses,10972,0,1
+1573648412585,11673,HTTP Request,200,OK,Thread Group 1-11,text,true,,12103,126,100,100,http://localhost:3000/courses,11673,0,1
+1573648412528,11791,HTTP Request,200,OK,Thread Group 1-79,text,true,,12103,126,100,100,http://localhost:3000/courses,11791,0,0
+1573648419608,4785,HTTP Request,200,OK,Thread Group 1-50,text,true,,12103,126,100,100,http://localhost:3000/courses,4785,0,1
+1573648416206,8247,HTTP Request,200,OK,Thread Group 1-55,text,true,,12103,126,100,100,http://localhost:3000/courses,8247,0,0
+1573648418998,5522,HTTP Request,200,OK,Thread Group 1-37,text,true,,12103,126,100,100,http://localhost:3000/courses,5522,0,1
+1573648414418,10225,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-53,text,false,,2556,0,100,100,http://localhost:3000/courses,0,0,1
+1573648424319,326,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-79,text,false,,2556,0,99,99,http://localhost:3000/courses,0,0,1
+1573648424258,389,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-11,text,false,,2556,0,98,98,http://localhost:3000/courses,0,0,1
+1573648421472,3178,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-23,text,false,,2556,0,97,97,http://localhost:3000/courses,0,0,1
+1573648419737,4914,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-30,text,false,,2556,0,96,96,http://localhost:3000/courses,0,0,1
+1573648416375,8277,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-7,text,false,,2556,0,95,95,http://localhost:3000/courses,0,0,1
+1573648418027,6626,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-29,text,false,,2556,0,94,94,http://localhost:3000/courses,0,0,1
+1573648422493,2164,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-65,text,false,,2556,0,93,93,http://localhost:3000/courses,0,0,1
+1573648418332,6325,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-34,text,false,,2556,0,92,92,http://localhost:3000/courses,0,0,1
+1573648420302,4358,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-2,text,false,,2556,0,91,91,http://localhost:3000/courses,0,0,1
+1573648413790,10872,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-54,text,false,,2556,0,90,90,http://localhost:3000/courses,0,0,0
+1573648421705,2960,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-47,text,false,,2556,0,90,90,http://localhost:3000/courses,0,0,1
+1573648424096,571,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-98,text,false,,2556,0,88,88,http://localhost:3000/courses,0,0,1
+1573648424038,630,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-41,text,false,,2556,0,87,87,http://localhost:3000/courses,0,0,0
+1573648420048,4623,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-22,text,false,,2556,0,86,86,http://localhost:3000/courses,0,0,1
+1573648421337,3335,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-71,text,false,,2556,0,85,85,http://localhost:3000/courses,0,0,1
+1573648419515,5159,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-60,text,false,,2556,0,84,84,http://localhost:3000/courses,0,0,0
+1573648423833,841,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-67,text,false,,2556,0,84,84,http://localhost:3000/courses,0,0,0
+1573648416710,7966,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-91,text,false,,2556,0,83,83,http://localhost:3000/courses,0,0,1
+1573648413291,11390,HTTP Request,200,OK,Thread Group 1-5,text,true,,12103,126,81,81,http://localhost:3000/courses,11390,0,0
+1573648420197,4485,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-40,text,false,,2556,0,81,81,http://localhost:3000/courses,0,0,1
+1573648420915,3768,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-94,text,false,,2556,0,80,80,http://localhost:3000/courses,0,0,1
+1573648422380,2303,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-82,text,false,,2556,0,79,79,http://localhost:3000/courses,0,0,0
+1573648421098,3585,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-31,text,false,,2556,0,78,78,http://localhost:3000/courses,0,0,0
+1573648418409,6274,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-46,text,false,,2556,0,77,77,http://localhost:3000/courses,0,0,0
+1573648420984,3700,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-66,text,false,,2556,0,76,76,http://localhost:3000/courses,0,0,0
+1573648414711,9972,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-96,text,false,,2556,0,76,76,http://localhost:3000/courses,0,0,0
+1573648417944,6739,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-64,text,false,,2556,0,74,74,http://localhost:3000/courses,0,0,1
+1573648422729,1956,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-72,text,false,,2556,0,73,73,http://localhost:3000/courses,0,0,1
+1573648414029,10655,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-99,text,false,,2556,0,73,73,http://localhost:3000/courses,0,0,1
+1573648420528,4157,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-80,text,false,,2556,0,71,71,http://localhost:3000/courses,0,0,1
+1573648413598,11087,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-38,text,false,,2556,0,70,70,http://localhost:3000/courses,0,0,0
+1573648423415,1270,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-1,text,false,,2556,0,69,69,http://localhost:3000/courses,0,0,0
+1573648414202,10483,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-74,text,false,,2556,0,69,69,http://localhost:3000/courses,0,0,0
+1573648422137,2550,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-84,text,false,,2556,0,67,67,http://localhost:3000/courses,0,0,0
+1573648412768,11918,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-15,text,false,,2556,0,66,66,http://localhost:3000/courses,0,0,1
+1573648423915,772,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-16,text,false,,2556,0,65,65,http://localhost:3000/courses,0,0,0
+1573648422666,2022,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-83,text,false,,2556,0,64,64,http://localhost:3000/courses,0,0,0
+1573648422430,2258,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-4,text,false,,2556,0,64,64,http://localhost:3000/courses,0,0,1
+1573648417300,7387,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-25,text,false,,2556,0,62,62,http://localhost:3000/courses,0,0,1
+1573648424519,169,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-37,text,false,,2556,0,61,61,http://localhost:3000/courses,0,0,1
+1573648421043,3646,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-21,text,false,,2556,0,60,60,http://localhost:3000/courses,0,0,0
+1573648416511,8177,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-59,text,false,,2556,0,59,59,http://localhost:3000/courses,0,0,1
+1573648419668,5021,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-81,text,false,,2556,0,59,59,http://localhost:3000/courses,0,0,1
+1573648420807,3883,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-89,text,false,,2556,0,57,57,http://localhost:3000/courses,0,0,0
+1573648418911,5779,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-51,text,false,,2556,0,56,56,http://localhost:3000/courses,0,0,0
+1573648415332,9357,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-93,text,false,,2556,0,56,56,http://localhost:3000/courses,0,0,1
+1573648422954,1736,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-3,text,false,,2556,0,56,56,http://localhost:3000/courses,0,0,1
+1573648420366,4324,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-26,text,false,,2556,0,53,53,http://localhost:3000/courses,0,0,1
+1573648419198,5493,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-87,text,false,,2556,0,52,52,http://localhost:3000/courses,0,0,0
+1573648423492,1198,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-27,text,false,,2556,0,51,51,http://localhost:3000/courses,0,0,0
+1573648419988,4703,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-32,text,false,,2556,0,51,51,http://localhost:3000/courses,0,0,1
+1573648418603,6088,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-17,text,false,,2556,0,50,50,http://localhost:3000/courses,0,0,1
+1573648414857,9833,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-86,text,false,,2556,0,50,50,http://localhost:3000/courses,0,0,1
+1573648421948,2743,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-56,text,false,,2556,0,47,47,http://localhost:3000/courses,0,0,1
+1573648419423,5269,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-63,text,false,,2556,0,46,46,http://localhost:3000/courses,0,0,1
+1573648417811,6880,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-6,text,false,,2556,0,45,45,http://localhost:3000/courses,0,0,1
+1573648423263,1429,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-77,text,false,,2556,0,45,45,http://localhost:3000/courses,0,0,1
+1573648421409,3283,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-10,text,false,,2556,0,45,45,http://localhost:3000/courses,0,0,1
+1573648418545,6148,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-90,text,false,,2556,0,42,42,http://localhost:3000/courses,0,0,0
+1573648413734,10958,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-100,text,false,,2556,0,42,42,http://localhost:3000/courses,0,0,1
+1573648418728,5966,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-33,text,false,,2556,0,40,40,http://localhost:3000/courses,0,0,0
+1573648422324,2371,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-45,text,false,,2556,0,39,39,http://localhost:3000/courses,0,0,1
+1573648412268,12426,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-19,text,false,,2556,0,38,38,http://localhost:3000/courses,0,0,0
+1573648416924,7770,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-62,text,false,,2556,0,37,37,http://localhost:3000/courses,0,0,1
+1573648419120,5576,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-70,text,false,,2556,0,36,36,http://localhost:3000/courses,0,0,1
+1573648419256,5441,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-36,text,false,,2556,0,35,35,http://localhost:3000/courses,0,0,1
+1573648416023,8673,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-20,text,false,,2556,0,34,34,http://localhost:3000/courses,0,0,0
+1573648421284,3413,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-52,text,false,,2556,0,33,33,http://localhost:3000/courses,0,0,1
+1573648421228,3470,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-68,text,false,,2556,0,32,32,http://localhost:3000/courses,0,0,1
+1573648415477,9221,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-92,text,false,,2556,0,31,31,http://localhost:3000/courses,0,0,0
+1573648418212,6486,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-39,text,false,,2556,0,31,31,http://localhost:3000/courses,0,0,1
+1573648424393,305,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-50,text,false,,2556,0,30,30,http://localhost:3000/courses,0,0,0
+1573648424453,245,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-55,text,false,,2556,0,28,28,http://localhost:3000/courses,0,0,1
+1573648419309,5391,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-97,text,false,,2556,0,27,27,http://localhost:3000/courses,0,0,0
+1573648413976,10723,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-76,text,false,,2556,0,26,26,http://localhost:3000/courses,0,0,0
+1573648417249,7450,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-95,text,false,,2556,0,25,25,http://localhost:3000/courses,0,0,1
+1573648424681,19,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-5,text,false,,2556,0,24,24,http://localhost:3000/courses,0,0,1
+1573648420653,4048,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-58,text,false,,2556,0,23,23,http://localhost:3000/courses,0,0,0
+1573648419798,4903,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-88,text,false,,2556,0,22,22,http://localhost:3000/courses,0,0,1
+1573648420734,3967,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-9,text,false,,2556,0,21,21,http://localhost:3000/courses,0,0,1
+1573648417879,6822,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-61,text,false,,2556,0,20,20,http://localhost:3000/courses,0,0,0
+1573648420594,4108,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-48,text,false,,2556,0,19,19,http://localhost:3000/courses,0,0,0
+1573648423576,1125,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-35,text,false,,2556,0,19,18,http://localhost:3000/courses,0,0,0
+1573648422854,1848,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-24,text,false,,2556,0,17,17,http://localhost:3000/courses,0,0,0
+1573648423695,1006,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-78,text,false,,2556,0,16,16,http://localhost:3000/courses,0,0,0
+1573648422262,2440,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-28,text,false,,2556,0,15,15,http://localhost:3000/courses,0,0,0
+1573648424176,526,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-49,text,false,,2556,0,14,14,http://localhost:3000/courses,0,0,1
+1573648420460,4243,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-44,text,false,,2556,0,13,13,http://localhost:3000/courses,0,0,0
+1573648416430,8272,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-69,text,false,,2556,0,12,12,http://localhost:3000/courses,0,0,0
+1573648416783,7920,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-18,text,false,,2556,0,11,11,http://localhost:3000/courses,0,0,1
+1573648421649,3055,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-43,text,false,,2556,0,11,11,http://localhost:3000/courses,0,0,1
+1573648423338,1366,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-85,text,false,,2556,0,9,9,http://localhost:3000/courses,0,0,0
+1573648419867,4837,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-8,text,false,,2556,0,8,8,http://localhost:3000/courses,0,0,0
+1573648417738,6966,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-75,text,false,,2556,0,7,7,http://localhost:3000/courses,0,0,0
+1573648415200,9504,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-12,text,false,,2556,0,7,7,http://localhost:3000/courses,0,0,0
+1573648421576,3129,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-42,text,false,,2556,0,5,5,http://localhost:3000/courses,0,0,1
+1573648421889,2817,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-73,text,false,,2556,0,4,4,http://localhost:3000/courses,0,0,0
+1573648418855,5851,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-14,text,false,,2556,0,3,3,http://localhost:3000/courses,0,0,0
+1573648414595,10110,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-57,text,false,,2556,0,2,2,http://localhost:3000/courses,0,0,0
+1573648423091,1615,HTTP Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-13,text,false,,2556,0,1,1,http://localhost:3000/courses,0,0,0

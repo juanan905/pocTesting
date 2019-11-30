@@ -1,0 +1,2 @@
+jmeter -n -t ExampleGETREST-restcountries.jmx -l testResults.jtl
+jmeter -n -t ExampleGETREST-restcountries.jmx -l testResults.jtl -e -o /DASHBOARD/
