@@ -1,0 +1,13 @@
+---
+ execution:
+   concurrency: 5
+   ramp-up: 1m
+   hold-for: 2m
+   iterations: 1
+   scenario:
+     script: jmeter_script3.jmx
+     properties:
+        hostname: marca.es
+        users: 50
+        rampup: 2
+        loops: 8
