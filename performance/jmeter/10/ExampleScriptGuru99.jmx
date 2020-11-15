@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.2">
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.3">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Plan de Pruebas" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -734,7 +734,7 @@
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
-        <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="LOGIN USER" enabled="true">
+        <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="LOGIN USER" enabled="false">
           <collectionProp name="ModuleController.node_path">
             <stringProp name="764597751">Test Plan</stringProp>
             <stringProp name="-509356230">Plan de Pruebas</stringProp>
@@ -1850,6 +1850,7 @@
           <stringProp name="username">HP_REQ</stringProp>
           <stringProp name="initQuery"></stringProp>
           <boolProp name="preinit">false</boolProp>
+          <stringProp name="connectionProperties"></stringProp>
         </JDBCDataSource>
         <hashTree/>
         <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Petición JDBC" enabled="true">
@@ -1915,6 +1916,7 @@
           <stringProp name="username">sql11204833</stringProp>
           <stringProp name="initQuery"></stringProp>
           <boolProp name="preinit">false</boolProp>
+          <stringProp name="connectionProperties"></stringProp>
         </JDBCDataSource>
         <hashTree/>
         <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Petición JDBC" enabled="true">

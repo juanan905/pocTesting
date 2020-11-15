@@ -1,0 +1,8 @@
+STATEMENT
+
+		String query = "select name, country, password from Users where email = '"+id+"' and password='"+pwd+"'";
+
+
+PREPARED STATEMENT 
+
+		String query = "select name, country, password from Users where email = ? and password = ?";
