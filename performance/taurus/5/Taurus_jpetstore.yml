@@ -14,7 +14,7 @@ scenarios:
       Accept-Language: fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4
       Content-Type: application/x-www-form-urlencoded
     requests:
-      - url: 'http://192.168.100.26:8089/actions/Catalog.action'
+      - url: 'http://jbrotonsnexoqa.ddns.net:8089/actions/Catalog.action'
         method: GET
         label: JPetStore Demo
         headers: {}
